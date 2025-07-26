@@ -43,7 +43,7 @@ def generate_influencers_data(num_influencers=50):
     """Generate mock influencers dataset with consistent platform assignment"""
     
     categories = ['Fitness', 'Nutrition', 'Lifestyle', 'Health', 'Sports', 'Wellness']
-    platforms = ['Instagram', 'YouTube', 'Twitter', 'TikTok']  # Consistent platform list
+    platforms = ['Instagram']  # Instagram only for simplified scope
     genders = ['Male', 'Female', 'Non-binary']
     
     # Indian influencer names for realism

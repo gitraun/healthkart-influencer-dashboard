@@ -25,8 +25,13 @@ def calculate_roi_metrics(tracking_df, payouts_df, influencers_df):
         'orders': 'sum'
     }).reset_index()
     
-    # Merge with payouts data
-    roi_data = roi_data.merge(payouts_df, on='influencer_id', how='left')
+    # Merge with payouts data (keep only the columns we need)
+    payout_cols = ['influencer_id', 'total_payout']
+    if 'total_payout' in payouts_df.columns:
+        roi_data = roi_data.merge(payouts_df[payout_cols], on='influencer_id', how='left')
+    else:
+        # If total_payout doesn't exist, create it from other payout columns
+        roi_data = roi_data.merge(payouts_df, on='influencer_id', how='left')
     
     # Merge with influencer data
     roi_data = roi_data.merge(influencers_df, on='influencer_id', how='left')
@@ -34,6 +39,7 @@ def calculate_roi_metrics(tracking_df, payouts_df, influencers_df):
     # Calculate metrics
     roi_data['total_payout'] = roi_data['total_payout'].fillna(0)
     roi_data['revenue'] = roi_data['revenue'].fillna(0)
+    roi_data['orders'] = roi_data['orders'].fillna(0)
     
     # ROAS = Revenue / Cost (total_payout is the cost)
     roi_data['roas'] = roi_data.apply(
