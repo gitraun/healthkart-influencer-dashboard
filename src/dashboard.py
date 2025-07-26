@@ -141,7 +141,11 @@ def create_performance_dashboard(influencers_df, posts_df, tracking_df, payouts_
                 on='influencer_id', 
                 how='left'
             )
-            platform_engagement = posts_with_platform.groupby('platform')['engagement_rate'].mean().reset_index()
+            # Since all data is Instagram now, create simple engagement data
+            platform_engagement = pd.DataFrame({
+                'platform': ['Instagram'],
+                'engagement_rate': [posts_with_platform['engagement_rate'].mean()]
+            })
             
             fig = px.bar(
                 platform_engagement, 

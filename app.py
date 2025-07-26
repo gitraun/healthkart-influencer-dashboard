@@ -176,40 +176,95 @@ def main():
         
         with col1:
             st.subheader("Download Raw Data")
-            if st.button("Download Influencers CSV"):
-                csv = st.session_state.influencers_df.to_csv(index=False)
-                st.download_button(
-                    label="Download influencers.csv",
-                    data=csv,
-                    file_name="influencers.csv",
-                    mime="text/csv"
-                )
             
-            if st.button("Download Posts CSV"):
-                csv = st.session_state.posts_df.to_csv(index=False)
-                st.download_button(
-                    label="Download posts.csv",
-                    data=csv,
-                    file_name="posts.csv",
-                    mime="text/csv"
-                )
+            # Influencers data
+            influencers_csv = st.session_state.influencers_df.to_csv(index=False)
+            st.download_button(
+                label="📱 Download Instagram Influencers",
+                data=influencers_csv,
+                file_name="instagram_influencers.csv",
+                mime="text/csv"
+            )
+            
+            # Posts data
+            posts_csv = st.session_state.posts_df.to_csv(index=False)
+            st.download_button(
+                label="📝 Download Instagram Posts",
+                data=posts_csv,
+                file_name="instagram_posts.csv",
+                mime="text/csv"
+            )
+            
+            # Tracking data
+            tracking_csv = st.session_state.tracking_df.to_csv(index=False)
+            st.download_button(
+                label="📊 Download Campaign Tracking",
+                data=tracking_csv,
+                file_name="instagram_tracking.csv",
+                mime="text/csv"
+            )
+            
+            # Payouts data
+            payouts_csv = st.session_state.payouts_df.to_csv(index=False)
+            st.download_button(
+                label="💰 Download Payout Data",
+                data=payouts_csv,
+                file_name="instagram_payouts.csv",
+                mime="text/csv"
+            )
         
         with col2:
             st.subheader("Download Analysis Reports")
-            if st.button("Generate ROI Report"):
-                # Generate comprehensive ROI report
+            
+            # ROI Analysis Report
+            try:
                 roi_data = calculate_roi_metrics(
                     st.session_state.tracking_df,
                     st.session_state.payouts_df,
                     st.session_state.influencers_df
                 )
-                csv = roi_data.to_csv(index=False)
+                roi_csv = roi_data.to_csv(index=False)
                 st.download_button(
-                    label="Download ROI Report",
-                    data=csv,
-                    file_name=f"roi_report_{datetime.now().strftime('%Y%m%d')}.csv",
+                    label="📈 Download ROI Analysis",
+                    data=roi_csv,
+                    file_name=f"instagram_roi_analysis_{datetime.now().strftime('%Y%m%d')}.csv",
                     mime="text/csv"
                 )
+            except Exception as e:
+                st.error(f"Error generating ROI report: {str(e)}")
+            
+            # Campaign Summary Report
+            summary_data = {
+                'Metric': ['Total Revenue', 'Total Orders', 'Instagram Influencers', 'Average ROAS', 'Total Marketing Cost'],
+                'Value': [
+                    f"₹{st.session_state.tracking_df['revenue'].sum():,.2f}",
+                    f"{st.session_state.tracking_df['orders'].sum():,}",
+                    f"{len(st.session_state.influencers_df):,}",
+                    f"{st.session_state.tracking_df['revenue'].sum() / st.session_state.payouts_df['total_payout'].sum():.2f}x" if st.session_state.payouts_df['total_payout'].sum() > 0 else "N/A",
+                    f"₹{st.session_state.payouts_df['total_payout'].sum():,.2f}"
+                ]
+            }
+            summary_df = pd.DataFrame(summary_data)
+            summary_csv = summary_df.to_csv(index=False)
+            st.download_button(
+                label="📋 Download Campaign Summary",
+                data=summary_csv,
+                file_name=f"instagram_campaign_summary_{datetime.now().strftime('%Y%m%d')}.csv",
+                mime="text/csv"
+            )
+        
+        # Display current data overview
+        st.subheader("📊 Current Data Overview")
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric("Instagram Influencers", len(st.session_state.influencers_df))
+        with col2:
+            st.metric("Total Posts", len(st.session_state.posts_df))
+        with col3:
+            st.metric("Total Orders", st.session_state.tracking_df['orders'].sum())
+        with col4:
+            st.metric("Total Revenue", f"₹{st.session_state.tracking_df['revenue'].sum():,.0f}")
 
 if __name__ == "__main__":
     main()

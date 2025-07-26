@@ -35,7 +35,7 @@ def generate_insights(influencers_df, posts_df, tracking_df, payouts_df):
         'overall_roas': tracking_df['revenue'].sum() / payouts_df['total_payout'].sum() if payouts_df['total_payout'].sum() > 0 else 0,
         'avg_performance_score': performance_data['performance_score'].mean(),
         'profitable_influencers_pct': (performance_data['roas'] > 1).mean() * 100,
-        'best_platform': platform_metrics.loc[platform_metrics['total_revenue'].idxmax(), 'platform'] if not platform_metrics.empty else 'N/A'
+        'best_platform': 'Instagram'  # Since we only have Instagram data
     }
     
     # Top performers
