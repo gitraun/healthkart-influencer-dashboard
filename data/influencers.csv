@@ -1,0 +1,16 @@
+influencer_id,name,category,gender,follower_count,platform
+INF_001,Arjun Sharma,Fitness,Male,85432,Instagram
+INF_002,Priya Patel,Nutrition,Female,156789,YouTube
+INF_003,Rahul Singh,Sports,Male,98765,Instagram
+INF_004,Sneha Kumar,Wellness,Female,234567,Instagram
+INF_005,Vikram Gupta,Fitness,Male,432109,YouTube
+INF_006,Kavya Agarwal,Health,Female,65432,TikTok
+INF_007,Rohit Jain,Fitness,Male,187654,Instagram
+INF_008,Ananya Malhotra,Lifestyle,Female,298765,Instagram
+INF_009,Aditya Chopra,Sports,Male,543210,YouTube
+INF_010,Meera Verma,Nutrition,Female,123456,Instagram
+INF_011,Karan Arora,Fitness,Male,345678,Twitter
+INF_012,Pooja Reddy,Wellness,Female,198765,Instagram
+INF_013,Siddharth Nair,Health,Male,87654,YouTube
+INF_014,Riya Iyer,Lifestyle,Female,456789,Instagram
+INF_015,Akash Mehta,Sports,Male,234567,Instagram

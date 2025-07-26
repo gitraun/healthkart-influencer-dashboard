@@ -1,0 +1,16 @@
+tracking_id,source,campaign,influencer_id,user_id,brand,product,date,orders,revenue
+TRK_00001,Instagram_influencer,MuscleBlaze_INF_001_2024-12-15,INF_001,USER_45123,MuscleBlaze,Whey Protein,2024-12-16,1,2145.50
+TRK_00002,Instagram_influencer,MuscleBlaze_INF_001_2024-12-15,INF_001,USER_78945,MuscleBlaze,Creatine,2024-12-17,1,1650.25
+TRK_00003,Instagram_influencer,HKVitals_INF_001_2024-12-10,INF_001,USER_23456,HKVitals,Multivitamin,2024-12-11,1,1250.00
+TRK_00004,YouTube_influencer,HKVitals_INF_002_2024-12-08,INF_002,USER_67890,HKVitals,Vitamin D,2024-12-09,1,899.99
+TRK_00005,YouTube_influencer,MuscleBlaze_INF_002_2024-12-05,INF_002,USER_34567,MuscleBlaze,Whey Protein,2024-12-06,1,2299.00
+TRK_00006,YouTube_influencer,MuscleBlaze_INF_002_2024-12-05,INF_002,USER_89012,MuscleBlaze,BCAA,2024-12-07,1,1899.50
+TRK_00007,Instagram_influencer,MuscleBlaze_INF_003_2024-12-12,INF_003,USER_45678,MuscleBlaze,Pre-Workout,2024-12-13,1,1750.75
+TRK_00008,Instagram_influencer,HKVitals_INF_004_2024-12-18,INF_004,USER_90123,HKVitals,Omega-3,2024-12-19,1,1599.00
+TRK_00009,Instagram_influencer,HKVitals_INF_004_2024-12-18,INF_004,USER_56789,HKVitals,Immunity Booster,2024-12-20,1,1299.99
+TRK_00010,YouTube_influencer,MuscleBlaze_INF_005_2024-12-14,INF_005,USER_12345,MuscleBlaze,Mass Gainer,2024-12-15,1,2850.00
+TRK_00011,YouTube_influencer,MuscleBlaze_INF_005_2024-12-14,INF_005,USER_67890,MuscleBlaze,Whey Protein,2024-12-16,1,2199.50
+TRK_00012,TikTok_influencer,HKVitals_INF_006_2024-12-11,INF_006,USER_23456,HKVitals,Biotin,2024-12-12,1,999.00
+TRK_00013,Instagram_influencer,MuscleBlaze_INF_007_2024-12-16,INF_007,USER_78901,MuscleBlaze,Creatine,2024-12-17,1,1699.99
+TRK_00014,Instagram_influencer,HKVitals_INF_008_2024-12-09,INF_008,USER_34567,HKVitals,Multivitamin,2024-12-10,1,1199.00
+TRK_00015,Instagram_influencer,HKVitals_INF_008_2024-12-09,INF_008,USER_89012,HKVitals,Vitamin D,2024-12-11,1,849.99

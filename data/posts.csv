@@ -1,0 +1,11 @@
+post_id,influencer_id,platform,date,url,caption,reach,likes,comments
+POST_0001,INF_001,Instagram,2024-12-15,https://instagram.com/post/1,Just crushed my workout with @MuscleBlaze protein! 💪 #fitness #protein,25632,1537,87
+POST_0002,INF_001,Instagram,2024-12-10,https://instagram.com/post/2,Pre-workout fuel with @HKVitals supplements 🔥 #workout #energy,22145,1329,65
+POST_0003,INF_002,YouTube,2024-12-08,https://youtube.com/post/3,Starting my day with @HKVitals multivitamins ☀️ #health #nutrition,47036,2352,118
+POST_0004,INF_002,YouTube,2024-12-05,https://youtube.com/post/4,Post-workout nutrition with @MuscleBlaze 🥤 #protein #recovery,51247,2562,128
+POST_0005,INF_003,Instagram,2024-12-12,https://instagram.com/post/5,Game day preparation with @MuscleBlaze 🏆 #sports #performance,29629,1778,89
+POST_0006,INF_004,Instagram,2024-12-18,https://instagram.com/post/6,Holistic wellness approach with @HKVitals 🌿 #wellness #holistic,70370,4222,211
+POST_0007,INF_005,YouTube,2024-12-14,https://youtube.com/post/7,Athletic performance through proper nutrition 🥇 #athletes #nutrition,129663,6483,324
+POST_0008,INF_006,TikTok,2024-12-11,https://tiktok.com/post/8,Daily wellness routine with @HKVitals 🌱 #wellness #health,19630,1178,59
+POST_0009,INF_007,Instagram,2024-12-16,https://instagram.com/post/9,Training hard, recovering smart 💪 #training #recovery,56296,3378,169
+POST_0010,INF_008,Instagram,2024-12-09,https://instagram.com/post/10,Living my best life with proper nutrition 🌟 #lifestyle #health,89630,4481,224
