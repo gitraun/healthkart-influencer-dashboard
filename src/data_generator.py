@@ -40,10 +40,10 @@ def generate_mock_data():
     return influencers_df, posts_df, tracking_df, payouts_df
 
 def generate_influencers_data(num_influencers=50):
-    """Generate mock influencers dataset"""
+    """Generate mock influencers dataset with consistent platform assignment"""
     
     categories = ['Fitness', 'Nutrition', 'Lifestyle', 'Health', 'Sports', 'Wellness']
-    platforms = ['Instagram', 'YouTube', 'Twitter', 'Facebook', 'TikTok']
+    platforms = ['Instagram', 'YouTube', 'Twitter', 'TikTok']  # Consistent platform list
     genders = ['Male', 'Female', 'Non-binary']
     
     # Indian influencer names for realism
@@ -62,20 +62,18 @@ def generate_influencers_data(num_influencers=50):
     
     data = []
     for i in range(num_influencers):
-        # Generate follower count with realistic distribution
-        follower_tier = random.choices(
-            ['micro', 'mid', 'macro', 'mega'],
-            weights=[40, 35, 20, 5]
-        )[0]
+        # Select platform first to determine appropriate follower count
+        platform = random.choice(platforms)
         
-        if follower_tier == 'micro':
-            follower_count = random.randint(10000, 100000)
-        elif follower_tier == 'mid':
-            follower_count = random.randint(100000, 500000)
-        elif follower_tier == 'macro':
-            follower_count = random.randint(500000, 1000000)
-        else:  # mega
-            follower_count = random.randint(1000000, 5000000)
+        # Platform-specific follower ranges (realistic for Indian market)
+        if platform == 'Instagram':
+            follower_count = random.randint(5000, 2000000)
+        elif platform == 'YouTube':
+            follower_count = random.randint(10000, 1000000)
+        elif platform == 'TikTok':
+            follower_count = random.randint(20000, 5000000)
+        else:  # Twitter
+            follower_count = random.randint(2000, 500000)
         
         data.append({
             'influencer_id': f'INF_{i+1:03d}',
@@ -83,7 +81,7 @@ def generate_influencers_data(num_influencers=50):
             'category': random.choice(categories),
             'gender': random.choice(genders),
             'follower_count': follower_count,
-            'platform': random.choice(platforms)
+            'platform': platform
         })
     
     return pd.DataFrame(data)

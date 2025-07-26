@@ -68,13 +68,11 @@ def calculate_roi_metrics(tracking_df, payouts_df, influencers_df):
 def calculate_platform_metrics(posts_df, tracking_df, influencers_df):
     """Calculate performance metrics by platform"""
     
-    # Merge posts with influencer data
-    posts_with_influencers = posts_df.merge(influencers_df, on='influencer_id', how='left')
-    
+    # Since posts now have platform field, use it directly
     # Calculate platform engagement metrics
-    platform_metrics = posts_with_influencers.groupby('platform').agg({
+    platform_metrics = posts_df.groupby('platform').agg({
         'reach': ['sum', 'mean'],
-        'likes': ['sum', 'mean'],
+        'likes': ['sum', 'mean'], 
         'comments': ['sum', 'mean'],
         'influencer_id': 'nunique'
     }).round(2)
@@ -84,8 +82,9 @@ def calculate_platform_metrics(posts_df, tracking_df, influencers_df):
         'total_comments', 'avg_comments', 'unique_influencers'
     ]
     
-    # Calculate platform revenue metrics
-    tracking_with_influencers = tracking_df.merge(influencers_df, on='influencer_id', how='left')
+    # Calculate platform revenue metrics from tracking data
+    # Merge tracking with influencers to get platform info
+    tracking_with_influencers = tracking_df.merge(influencers_df[['influencer_id', 'platform']], on='influencer_id', how='left')
     platform_revenue = tracking_with_influencers.groupby('platform').agg({
         'revenue': 'sum',
         'orders': 'sum'
