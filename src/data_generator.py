@@ -152,9 +152,9 @@ def generate_posts_data(influencers_df, posts_per_influencer_range=(5, 15)):
             likes = int(reach * engagement_rate * random.uniform(0.8, 1.2))
             comments = int(likes * random.uniform(0.02, 0.05))
             
-            # Get appropriate caption
+            # Get appropriate caption and ensure no commas to avoid CSV parsing issues
             category_captions = caption_templates.get(influencer['category'], caption_templates['Health'])
-            caption = random.choice(category_captions)
+            caption = random.choice(category_captions).replace(',', ' -')
             
             data.append({
                 'post_id': f'POST_{post_id:04d}',
@@ -266,8 +266,8 @@ def generate_payouts_data(influencers_df, tracking_df):
             revenue = influencer_orders.iloc[0]['revenue']
             
             if basis == 'post':
-                # Count posts for this influencer
-                posts_count = len(posts_df[posts_df['influencer_id'] == influencer_id])
+                # For post-based payment, assume average of 3 posts per influencer
+                posts_count = 3  # Fixed number since we don't have access to posts_df here
                 total_payout = rate * posts_count
             else:
                 total_payout = revenue * rate
