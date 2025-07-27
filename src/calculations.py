@@ -211,17 +211,31 @@ def calculate_influencer_performance_scores(roi_data, posts_df):
 def identify_top_performers(performance_data, metric='performance_score', top_n=10):
     """Identify top performing influencers based on specified metric"""
     
-    return performance_data.nlargest(top_n, metric)[
-        ['influencer_id', 'name', 'category', 'platform', metric, 'roas', 'orders', 'revenue']
-    ]
+    # Build column list avoiding duplicates
+    base_cols = ['influencer_id', 'name', 'category', 'platform']
+    if metric not in base_cols:
+        base_cols.append(metric)
+    
+    # Add additional metrics if they're not already included
+    for col in ['roas', 'orders', 'revenue']:
+        if col not in base_cols and col in performance_data.columns:
+            base_cols.append(col)
+    
+    return performance_data.nlargest(top_n, metric)[base_cols]
 
 def identify_underperformers(performance_data, threshold_percentile=25):
     """Identify underperforming influencers based on performance score"""
     
     threshold = performance_data['performance_score'].quantile(threshold_percentile / 100)
     
+    # Build column list avoiding duplicates
+    base_cols = ['influencer_id', 'name', 'category', 'platform', 'performance_score']
+    for col in ['roas', 'orders', 'revenue']:
+        if col not in base_cols and col in performance_data.columns:
+            base_cols.append(col)
+    
     underperformers = performance_data[
         performance_data['performance_score'] <= threshold
-    ][['influencer_id', 'name', 'category', 'platform', 'performance_score', 'roas', 'orders', 'revenue']]
+    ][base_cols]
     
     return underperformers.sort_values('performance_score')
