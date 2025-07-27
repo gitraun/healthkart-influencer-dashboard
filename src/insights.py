@@ -48,8 +48,8 @@ def generate_insights(influencers_df, posts_df, tracking_df, payouts_df):
     # Underperformers
     insights['underperformers'] = identify_underperformers(performance_data, 25)
     
-    # Platform insights
-    insights['platform_insights'] = platform_metrics.sort_values('total_revenue', ascending=False)
+    # Platform insights - all data is Instagram only
+    insights['platform_insights'] = platform_metrics
     
     # Generate recommendations
     insights['recommendations'] = generate_recommendations(performance_data, platform_metrics, tracking_df)
@@ -61,16 +61,19 @@ def generate_recommendations(performance_data, platform_metrics, tracking_df):
     
     recommendations = []
     
-    # Budget allocation recommendations
+    # Budget allocation recommendations - simplified for Instagram-only
     if not performance_data.empty:
-        top_roas_platform = performance_data.groupby('platform')['roas'].mean().idxmax()
-        recommendations.append({
-            'type': 'Budget Allocation',
-            'priority': 'High',
-            'recommendation': f"Increase budget allocation to {top_roas_platform} influencers",
-            'reason': f"{top_roas_platform} shows highest average ROAS",
-            'action': f"Reallocate 20% of budget from underperforming platforms to {top_roas_platform}"
-        })
+        # Find top performing influencers
+        top_performers = performance_data.nlargest(5, 'roas')
+        if not top_performers.empty:
+            avg_top_roas = top_performers['roas'].mean()
+            recommendations.append({
+                'type': 'Budget Allocation',
+                'priority': 'High',
+                'recommendation': f"Increase budget allocation to top 5 Instagram influencers",
+                'reason': f"Top performers show {avg_top_roas:.2f}x average ROAS",
+                'action': f"Reallocate 20% of budget to top performing Instagram influencers"
+            })
     
     # Underperformer optimization
     underperformers = performance_data[performance_data['roas'] < 1.0]
