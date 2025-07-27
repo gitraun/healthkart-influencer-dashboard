@@ -241,23 +241,29 @@ def create_insights_dashboard(influencers_df, posts_df, tracking_df, payouts_df)
             st.plotly_chart(fig, use_container_width=True)
         
         with col2:
+            # Use the correct column name for engagement rate
+            engagement_col = 'avg_engagement_rate' if 'avg_engagement_rate' in platform_data.columns else 'engagement_rate'
             fig = px.bar(
                 platform_data, 
                 x='platform', 
-                y='engagement_rate',
+                y=engagement_col,
                 title="Engagement Rate by Platform",
-                labels={'engagement_rate': 'Engagement Rate', 'platform': 'Platform'}
+                labels={engagement_col: 'Engagement Rate', 'platform': 'Platform'}
             )
             st.plotly_chart(fig, use_container_width=True)
         
-        # Platform comparison table
+        # Platform comparison table with available columns only
+        column_config = {}
+        if 'total_revenue' in platform_data.columns:
+            column_config["total_revenue"] = st.column_config.NumberColumn("Revenue", format="₹%.0f")
+        if 'total_orders' in platform_data.columns:
+            column_config["total_orders"] = st.column_config.NumberColumn("Orders", format="%.0f")
+        if 'avg_engagement_rate' in platform_data.columns:
+            column_config["avg_engagement_rate"] = st.column_config.NumberColumn("Engagement", format="%.3f")
+        
         st.dataframe(
             platform_data,
-            column_config={
-                "total_revenue": st.column_config.NumberColumn("Revenue", format="₹%.0f"),
-                "avg_order_value": st.column_config.NumberColumn("AOV", format="₹%.0f"),
-                "engagement_rate": st.column_config.NumberColumn("Engagement", format="%.3f")
-            },
+            column_config=column_config,
             use_container_width=True
         )
     

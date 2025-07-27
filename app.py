@@ -15,7 +15,7 @@ from src.data_generator import generate_mock_data
 from src.calculations import calculate_roi_metrics, calculate_engagement_rates
 from src.upload import handle_file_upload, validate_data_schema
 from src.dashboard import create_performance_dashboard, create_roi_dashboard
-from src.insights import generate_insights, create_insights_dashboard
+from src.insights_fixed import create_insights_dashboard
 
 # Page configuration
 st.set_page_config(
