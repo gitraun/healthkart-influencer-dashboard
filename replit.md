@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a comprehensive web-based dashboard built with Streamlit for tracking, analyzing, and optimizing influencer campaigns across multiple platforms (Instagram, YouTube, Twitter, TikTok) and brands (MuscleBlaze, HKVitals, Gritzo). The application enables marketing teams to calculate ROI, track performance metrics, and generate actionable insights for campaign optimization.
+This is a comprehensive web-based dashboard built with Streamlit for tracking, analyzing, and optimizing influencer campaigns across multiple platforms (Instagram, YouTube, LinkedIn) and brands (MuscleBlaze, HKVitals, Gritzo). The application enables marketing teams to calculate ROI, track performance metrics, and generate actionable insights for campaign optimization.
 
 ## User Preferences
 

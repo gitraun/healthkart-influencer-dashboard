@@ -72,48 +72,61 @@ def calculate_roi_metrics(tracking_df, payouts_df, influencers_df):
     return roi_data
 
 def calculate_platform_metrics(posts_df, tracking_df, influencers_df):
-    """Calculate metrics by platform - simplified for Instagram-only data"""
+    """Calculate metrics by platform - supports multiple platforms"""
     
     try:
-        # Since all data is Instagram now, create simple platform metrics
-        total_revenue = tracking_df['revenue'].sum() if not tracking_df.empty else 0
-        total_orders = tracking_df['orders'].sum() if not tracking_df.empty else 0
+        # Merge tracking data with influencers to get platform info
+        tracking_with_platform = tracking_df.merge(
+            influencers_df[['influencer_id', 'platform']], 
+            on='influencer_id', 
+            how='left'
+        )
         
-        # Calculate engagement rate if available
+        # Calculate revenue and order metrics by platform
+        platform_revenue = tracking_with_platform.groupby('platform').agg({
+            'revenue': 'sum',
+            'orders': 'sum'
+        }).reset_index()
+        
+        # Calculate engagement metrics by platform
         posts_with_engagement = calculate_engagement_rates(posts_df) if not posts_df.empty else posts_df
-        avg_engagement = posts_with_engagement['engagement_rate'].mean() if not posts_with_engagement.empty and 'engagement_rate' in posts_with_engagement.columns else 0
+        posts_with_platform = posts_with_engagement.merge(
+            influencers_df[['influencer_id', 'platform']], 
+            on='influencer_id', 
+            how='left'
+        )
         
-        # Calculate other metrics
-        total_reach = posts_df['reach'].sum() if not posts_df.empty and 'reach' in posts_df.columns else 0
-        total_likes = posts_df['likes'].sum() if not posts_df.empty and 'likes' in posts_df.columns else 0
-        total_comments = posts_df['comments'].sum() if not posts_df.empty and 'comments' in posts_df.columns else 0
-        unique_influencers = len(influencers_df) if not influencers_df.empty else 0
+        platform_engagement = posts_with_platform.groupby('platform').agg({
+            'engagement_rate': 'mean',
+            'reach': 'sum',
+            'likes': 'sum',
+            'comments': 'sum',
+            'influencer_id': 'nunique'
+        }).reset_index()
         
-        # Create platform metrics DataFrame
-        platform_metrics = pd.DataFrame({
-            'platform': ['Instagram'],
-            'total_revenue': [total_revenue],
-            'total_orders': [total_orders],
-            'avg_engagement_rate': [avg_engagement],
-            'total_reach': [total_reach],
-            'total_likes': [total_likes],
-            'total_comments': [total_comments],
-            'unique_influencers': [unique_influencers]
-        })
+        platform_engagement.columns = ['platform', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
+        
+        # Merge revenue and engagement metrics
+        platform_metrics = platform_revenue.merge(platform_engagement, on='platform', how='outer')
+        platform_metrics = platform_metrics.fillna(0)
+        
+        # Rename columns for consistency
+        platform_metrics.columns = ['platform', 'total_revenue', 'total_orders', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
         
         return platform_metrics
         
     except Exception as e:
-        # Return empty DataFrame with correct structure if error occurs
+        # Return basic platform structure if error occurs
+        platforms = influencers_df['platform'].unique() if not influencers_df.empty else ['Instagram', 'YouTube', 'LinkedIn']
         return pd.DataFrame({
-            'platform': ['Instagram'],
-            'total_revenue': [0],
-            'total_orders': [0],
-            'avg_engagement_rate': [0],
-            'total_reach': [0],
-            'total_likes': [0],
-            'total_comments': [0],
-            'unique_influencers': [0]
+            'platform': platforms,
+            'total_revenue': [0] * len(platforms),
+            'total_orders': [0] * len(platforms),
+            'avg_engagement_rate': [0] * len(platforms),
+            'total_reach': [0] * len(platforms),
+            'total_likes': [0] * len(platforms),
+            'total_comments': [0] * len(platforms),
+            'unique_influencers': [0] * len(platforms)
         })
 
 def calculate_brand_metrics(tracking_df):

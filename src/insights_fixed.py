@@ -39,7 +39,7 @@ def generate_insights(influencers_df, posts_df, tracking_df, payouts_df):
         'overall_roas': overall_roas,
         'avg_performance_score': performance_data['performance_score'].mean() if not performance_data.empty and 'performance_score' in performance_data.columns else 0,
         'profitable_influencers_pct': (performance_data['roas'] > 1).mean() * 100 if not performance_data.empty and 'roas' in performance_data.columns else 0,
-        'best_platform': 'Instagram'  # Since we only have Instagram data
+        'best_platform': platform_metrics.loc[platform_metrics['total_revenue'].idxmax(), 'platform'] if not platform_metrics.empty and len(platform_metrics) > 0 else 'Instagram'
     }
     
     # Top performers with error handling
@@ -76,18 +76,24 @@ def generate_recommendations(performance_data, platform_metrics, tracking_df):
     recommendations = []
     
     try:
-        # Budget allocation recommendations - simplified for Instagram-only
+        # Budget allocation recommendations - multi-platform support
         if not performance_data.empty and 'roas' in performance_data.columns:
-            # Find top performing influencers
+            # Find top performing influencers by platform
             top_performers = performance_data.nlargest(5, 'roas')
             if not top_performers.empty:
                 avg_top_roas = top_performers['roas'].mean()
+                # Identify best performing platform
+                if not platform_metrics.empty and 'total_revenue' in platform_metrics.columns:
+                    best_platform = platform_metrics.loc[platform_metrics['total_revenue'].idxmax(), 'platform']
+                else:
+                    best_platform = "the top performing platform"
+                
                 recommendations.append({
                     'type': 'Budget Allocation',
                     'priority': 'High',
-                    'recommendation': f"Increase budget allocation to top 5 Instagram influencers",
-                    'reason': f"Top performers show {avg_top_roas:.2f}x average ROAS",
-                    'action': f"Reallocate 20% of budget to top performing Instagram influencers"
+                    'recommendation': f"Increase budget allocation to top 5 influencers across all platforms",
+                    'reason': f"Top performers show {avg_top_roas:.2f}x average ROAS, with {best_platform} leading revenue generation",
+                    'action': f"Reallocate 20% of budget to top performing influencers, prioritizing {best_platform}"
                 })
         
         # Underperformer optimization
@@ -234,7 +240,7 @@ def create_insights_dashboard(influencers_df, posts_df, tracking_df, payouts_df)
             st.info("No performance data available")
     
     # Platform Performance Comparison
-    st.subheader("📱 Instagram Performance Analysis")
+    st.subheader("📱 Multi-Platform Performance Analysis")
     
     if not insights['platform_insights'].empty:
         platform_data = insights['platform_insights']
@@ -320,9 +326,13 @@ def create_insights_dashboard(influencers_df, posts_df, tracking_df, payouts_df)
     st.subheader("📈 Campaign Performance Summary")
     
     if not tracking_df.empty:
-        # Create performance summary
+        # Create performance summary with platform distribution
+        platform_counts = influencers_df['platform'].value_counts() if not influencers_df.empty else {}
+        platform_summary = " | ".join([f"{platform}: {count}" for platform, count in platform_counts.items()])
+        
         summary_metrics = {
-            'Total Instagram Influencers': len(influencers_df),
+            'Total Influencers': len(influencers_df),
+            'Platform Distribution': platform_summary,
             'Total Posts': len(posts_df),
             'Total Orders': tracking_df['orders'].sum(),
             'Total Revenue': f"₹{tracking_df['revenue'].sum():,.0f}",

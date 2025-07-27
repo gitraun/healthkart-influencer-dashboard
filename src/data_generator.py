@@ -43,7 +43,7 @@ def generate_influencers_data(num_influencers=50):
     """Generate mock influencers dataset with consistent platform assignment"""
     
     categories = ['Fitness', 'Nutrition', 'Lifestyle', 'Health', 'Sports', 'Wellness']
-    platforms = ['Instagram']  # Instagram only for simplified scope
+    platforms = ['Instagram', 'YouTube', 'LinkedIn']  # Multi-platform support
     genders = ['Male', 'Female', 'Non-binary']
     
     # Indian influencer names for realism
@@ -69,11 +69,11 @@ def generate_influencers_data(num_influencers=50):
         if platform == 'Instagram':
             follower_count = random.randint(5000, 2000000)
         elif platform == 'YouTube':
-            follower_count = random.randint(10000, 1000000)
-        elif platform == 'TikTok':
-            follower_count = random.randint(20000, 5000000)
-        else:  # Twitter
-            follower_count = random.randint(2000, 500000)
+            follower_count = random.randint(10000, 1000000)  # Subscribers
+        elif platform == 'LinkedIn':
+            follower_count = random.randint(2000, 500000)   # Connections/Followers
+        else:  # Default for any other platform
+            follower_count = random.randint(5000, 1000000)
         
         data.append({
             'influencer_id': f'INF_{i+1:03d}',
