@@ -89,9 +89,9 @@ def create_performance_dashboard(influencers_df, posts_df, tracking_df, payouts_
     with col1:
         st.subheader("Revenue by Platform")
         if not filtered_tracking.empty:
-            # Merge with influencer data to get platform info
+            # Merge with full influencer data to get platform info
             tracking_with_platform = filtered_tracking.merge(
-                filtered_influencers[['influencer_id', 'platform']], 
+                influencers_df[['influencer_id', 'platform']], 
                 on='influencer_id', 
                 how='left'
             )
@@ -113,7 +113,7 @@ def create_performance_dashboard(influencers_df, posts_df, tracking_df, payouts_
         st.subheader("Orders by Category")
         if not filtered_tracking.empty:
             tracking_with_category = filtered_tracking.merge(
-                filtered_influencers[['influencer_id', 'category']], 
+                influencers_df[['influencer_id', 'category']], 
                 on='influencer_id', 
                 how='left'
             )
@@ -136,16 +136,8 @@ def create_performance_dashboard(influencers_df, posts_df, tracking_df, payouts_
         st.subheader("Engagement Rate by Platform")
         if not filtered_posts.empty:
             posts_with_engagement_filtered = calculate_engagement_rates(filtered_posts)
-            posts_with_platform = posts_with_engagement_filtered.merge(
-                filtered_influencers[['influencer_id', 'platform']], 
-                on='influencer_id', 
-                how='left'
-            )
-            # Since all data is Instagram now, create simple engagement data
-            platform_engagement = pd.DataFrame({
-                'platform': ['Instagram'],
-                'engagement_rate': [posts_with_platform['engagement_rate'].mean()]
-            })
+            # Use platform directly from posts data since it already has platform column
+            platform_engagement = posts_with_engagement_filtered.groupby('platform')['engagement_rate'].mean().reset_index()
             
             fig = px.bar(
                 platform_engagement, 
@@ -186,7 +178,7 @@ def create_performance_dashboard(influencers_df, posts_df, tracking_df, payouts_
         }).reset_index()
         
         influencer_performance = influencer_performance.merge(
-            filtered_influencers[['influencer_id', 'name', 'category', 'platform', 'follower_count']], 
+            influencers_df[['influencer_id', 'name', 'category', 'platform', 'follower_count']], 
             on='influencer_id', 
             how='left'
         )

@@ -19,7 +19,7 @@ from src.insights_fixed import create_insights_dashboard
 
 # Page configuration
 st.set_page_config(
-    page_title="HealthKart Influencer ROI Dashboard",
+    page_title="Campaign Dashboard",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"

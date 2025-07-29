@@ -89,29 +89,50 @@ def calculate_platform_metrics(posts_df, tracking_df, influencers_df):
         }).reset_index()
         
         # Calculate engagement metrics by platform
-        posts_with_engagement = calculate_engagement_rates(posts_df) if not posts_df.empty else posts_df
-        posts_with_platform = posts_with_engagement.merge(
-            influencers_df[['influencer_id', 'platform']], 
-            on='influencer_id', 
-            how='left'
-        )
-        
-        platform_engagement = posts_with_platform.groupby('platform').agg({
-            'engagement_rate': 'mean',
-            'reach': 'sum',
-            'likes': 'sum',
-            'comments': 'sum',
-            'influencer_id': 'nunique'
-        }).reset_index()
-        
-        platform_engagement.columns = ['platform', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
+        if not posts_df.empty:
+            posts_with_engagement = calculate_engagement_rates(posts_df)
+            # Posts already has platform information, no need to merge
+            posts_with_platform = posts_with_engagement
+            platform_engagement = posts_with_platform.groupby('platform').agg({
+                'engagement_rate': 'mean',
+                'reach': 'sum',
+                'likes': 'sum',
+                'comments': 'sum',
+                'influencer_id': 'nunique'
+            }).reset_index()
+            platform_engagement.columns = ['platform', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
+        else:
+            # Create empty engagement data using platforms from revenue data
+            platforms = platform_revenue['platform'].unique()
+            platform_engagement = pd.DataFrame({
+                'platform': platforms,
+                'avg_engagement_rate': [0] * len(platforms),
+                'total_reach': [0] * len(platforms),
+                'total_likes': [0] * len(platforms),
+                'total_comments': [0] * len(platforms),
+                'unique_influencers': [0] * len(platforms)
+            })
         
         # Merge revenue and engagement metrics
         platform_metrics = platform_revenue.merge(platform_engagement, on='platform', how='outer')
         platform_metrics = platform_metrics.fillna(0)
         
-        # Rename columns for consistency
-        platform_metrics.columns = ['platform', 'total_revenue', 'total_orders', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
+        # Ensure we have the correct column structure
+        expected_columns = ['platform', 'total_revenue', 'total_orders', 'avg_engagement_rate', 'total_reach', 'total_likes', 'total_comments', 'unique_influencers']
+        
+        # Rename columns if needed
+        if 'revenue' in platform_metrics.columns:
+            platform_metrics = platform_metrics.rename(columns={'revenue': 'total_revenue'})
+        if 'orders' in platform_metrics.columns:
+            platform_metrics = platform_metrics.rename(columns={'orders': 'total_orders'})
+        
+        # Ensure all expected columns exist
+        for col in expected_columns:
+            if col not in platform_metrics.columns:
+                platform_metrics[col] = 0
+        
+        # Reorder columns to match expected structure
+        platform_metrics = platform_metrics[expected_columns]
         
         return platform_metrics
         
@@ -224,6 +245,12 @@ def calculate_influencer_performance_scores(roi_data, posts_df):
 def identify_top_performers(performance_data, metric='performance_score', top_n=10):
     """Identify top performing influencers based on specified metric"""
     
+    # Filter out rows with missing influencer data
+    valid_data = performance_data.dropna(subset=['name', 'category', 'platform'])
+    
+    if valid_data.empty:
+        return pd.DataFrame()
+    
     # Build column list avoiding duplicates
     base_cols = ['influencer_id', 'name', 'category', 'platform']
     if metric not in base_cols:
@@ -231,10 +258,10 @@ def identify_top_performers(performance_data, metric='performance_score', top_n=
     
     # Add additional metrics if they're not already included
     for col in ['roas', 'orders', 'revenue']:
-        if col not in base_cols and col in performance_data.columns:
+        if col not in base_cols and col in valid_data.columns:
             base_cols.append(col)
     
-    return performance_data.nlargest(top_n, metric)[base_cols]
+    return valid_data.nlargest(top_n, metric)[base_cols]
 
 def identify_underperformers(performance_data, threshold_percentile=25):
     """Identify underperforming influencers based on performance score"""

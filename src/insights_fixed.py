@@ -280,7 +280,7 @@ def create_insights_dashboard(influencers_df, posts_df, tracking_df, payouts_df)
             else:
                 st.info("Engagement data not available")
         
-        # Platform comparison table with available columns only
+        # Platform comparison table
         st.subheader("Platform Metrics Overview")
         st.dataframe(platform_data, use_container_width=True)
     else:

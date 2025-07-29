@@ -32,11 +32,11 @@ The tool is developed in a modular fashion, deployed via Replit, and version‑c
 **Duration: 1-2 days**
 
 **Tasks:**
-- Create Replit project with Python template
+- Create project with Python template
 - Set up complete folder structure (src/, data/, config/, tests/, docs/)
 - Configure requirements.txt with all dependencies
 - Create .env file structure for future configurations
-- Initialize GitHub repository and connect to Replit
+- Initialize GitHub repository and connect to local environment
 - Set up .gitignore and initial documentation
 - Configure git branching strategy (main, develop, feature branches)
 
@@ -269,7 +269,7 @@ Cost per Acquisition = Total_Cost / Total_Orders
 - Add inline help and tooltips throughout the dashboard
 - Implement error handling and user feedback systems
 - Optimize performance and loading times
-- Deploy to Replit and test all functionality
+- Test all functionality
 - Create user guide and documentation
 - Set up GitHub repository with proper documentation
 
@@ -278,10 +278,10 @@ Cost per Acquisition = Total_Cost / Total_Orders
 - **API Documentation**: Function and module documentation
 - **User Guide**: Step-by-step dashboard usage instructions
 - **Technical Documentation**: Architecture and design decisions
-- **Deployment Guide**: Replit deployment instructions
+- **Deployment Guide**: Local deployment instructions
 
 **Deliverables:**
-- Production-ready application deployed on Replit
+- Production-ready application for local deployment
 - Complete documentation suite
 - GitHub repository with version control
 - User training materials
@@ -320,7 +320,7 @@ Cost per Acquisition = Total_Cost / Total_Orders
 #### Deployment & Scalability Considerations
 
 **Current Deployment Strategy:**
-- Replit-based hosting for rapid development and testing
+- Local hosting for development and testing
 - File-based data storage using CSV files for simplicity
 - Session-based state management for multi-user support
 - Environment variable configuration for sensitive settings
@@ -478,12 +478,11 @@ The system efficiently handles datasets with multiple influencers through:
 
 ### Prerequisites
 - Python 3.8+
-- Replit account
 - GitHub account (optional)
 
 ### Installation
-1. Open in Replit
-2. Dependencies are automatically installed
+1. Clone the repository locally
+2. Install dependencies: `pip install -r requirements.txt` or use `pyproject.toml`
 3. Run the application: `streamlit run app.py`
 
 ### Usage

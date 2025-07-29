@@ -1,17 +1,17 @@
 tracking_id,source,campaign,influencer_id,user_id,brand,product,date,orders,revenue
-TRK_00001,LinkedIn_influencer,HKVitals_INF_001_2025-07-02,INF_001,USER_34455,HKVitals,Vitamin D,2025-07-03,1,850.37
-TRK_00002,LinkedIn_influencer,HKVitals_INF_001_2025-07-02,INF_001,USER_45200,HKVitals,Immunity Booster,2025-07-04,1,1283.71
-TRK_00003,LinkedIn_influencer,HKVitals_INF_001_2025-05-26,INF_001,USER_39820,HKVitals,Biotin,2025-05-27,1,1363.3
-TRK_00004,LinkedIn_influencer,HKVitals_INF_001_2025-05-26,INF_001,USER_72236,HKVitals,Biotin,2025-05-28,1,1311.61
-TRK_00005,LinkedIn_influencer,Gritzo_INF_001_2025-07-18,INF_001,USER_32659,Gritzo,Teen Nutrition,2025-07-19,1,992.91
-TRK_00006,LinkedIn_influencer,HKVitals_INF_001_2025-06-25,INF_001,USER_92211,HKVitals,Multivitamin,2025-06-28,1,1960.27
-TRK_00007,LinkedIn_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_46202,HKVitals,Biotin,2025-05-24,1,1232.42
-TRK_00008,LinkedIn_influencer,MuscleBlaze_INF_001_2025-05-23,INF_001,USER_24748,MuscleBlaze,Creatine,2025-05-25,1,1589.88
-TRK_00009,LinkedIn_influencer,MuscleBlaze_INF_001_2025-05-23,INF_001,USER_23133,MuscleBlaze,Creatine,2025-05-26,1,1583.32
-TRK_00010,LinkedIn_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_44620,HKVitals,Biotin,2025-05-29,1,1996.45
-TRK_00011,LinkedIn_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_62654,HKVitals,Immunity Booster,2025-06-02,1,993.76
-TRK_00012,LinkedIn_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_45203,HKVitals,Vitamin D,2025-06-03,1,546.57
-TRK_00013,LinkedIn_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_99764,HKVitals,Omega-3,2025-06-05,1,1134.51
+TRK_00001,Instagram_influencer,HKVitals_INF_001_2025-07-02,INF_001,USER_34455,HKVitals,Vitamin D,2025-07-03,1,850.37
+TRK_00002,Instagram_influencer,HKVitals_INF_001_2025-07-02,INF_001,USER_45200,HKVitals,Immunity Booster,2025-07-04,1,1283.71
+TRK_00003,Instagram_influencer,HKVitals_INF_001_2025-05-26,INF_001,USER_39820,HKVitals,Biotin,2025-05-27,1,1363.3
+TRK_00004,Instagram_influencer,HKVitals_INF_001_2025-05-26,INF_001,USER_72236,HKVitals,Biotin,2025-05-28,1,1311.61
+TRK_00005,Instagram_influencer,Gritzo_INF_001_2025-07-18,INF_001,USER_32659,Gritzo,Teen Nutrition,2025-07-19,1,992.91
+TRK_00006,Instagram_influencer,HKVitals_INF_001_2025-06-25,INF_001,USER_92211,HKVitals,Multivitamin,2025-06-28,1,1960.27
+TRK_00007,Instagram_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_46202,HKVitals,Biotin,2025-05-24,1,1232.42
+TRK_00008,Instagram_influencer,MuscleBlaze_INF_001_2025-05-23,INF_001,USER_24748,MuscleBlaze,Creatine,2025-05-25,1,1589.88
+TRK_00009,Instagram_influencer,MuscleBlaze_INF_001_2025-05-23,INF_001,USER_23133,MuscleBlaze,Creatine,2025-05-26,1,1583.32
+TRK_00010,Instagram_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_44620,HKVitals,Biotin,2025-05-29,1,1996.45
+TRK_00011,Instagram_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_62654,HKVitals,Immunity Booster,2025-06-02,1,993.76
+TRK_00012,Instagram_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_45203,HKVitals,Vitamin D,2025-06-03,1,546.57
+TRK_00013,Instagram_influencer,HKVitals_INF_001_2025-05-23,INF_001,USER_99764,HKVitals,Omega-3,2025-06-05,1,1134.51
 TRK_00014,Instagram_influencer,Gritzo_INF_002_2025-05-20,INF_002,USER_64627,Gritzo,DHA Supplement,2025-05-21,1,1228.39
 TRK_00015,Instagram_influencer,MuscleBlaze_INF_002_2025-05-20,INF_002,USER_63368,MuscleBlaze,BCAA,2025-05-22,1,1440.04
 TRK_00016,Instagram_influencer,MuscleBlaze_INF_002_2025-06-23,INF_002,USER_76426,MuscleBlaze,Creatine,2025-06-24,1,1597.77
@@ -24,15 +24,15 @@ TRK_00022,Instagram_influencer,Gritzo_INF_002_2025-05-31,INF_002,USER_46094,Grit
 TRK_00023,Instagram_influencer,HKVitals_INF_002_2025-05-31,INF_002,USER_49602,HKVitals,Omega-3,2025-06-03,1,1274.67
 TRK_00024,Instagram_influencer,Gritzo_INF_002_2025-05-31,INF_002,USER_47051,Gritzo,Growth Formula,2025-06-07,1,1501.39
 TRK_00025,Instagram_influencer,MuscleBlaze_INF_002_2025-05-31,INF_002,USER_46291,MuscleBlaze,Pre-Workout,2025-06-09,1,2041.88
-TRK_00026,LinkedIn_influencer,HKVitals_INF_003_2025-04-30,INF_003,USER_48745,HKVitals,Vitamin D,2025-05-01,1,1259.24
-TRK_00027,LinkedIn_influencer,HKVitals_INF_003_2025-04-30,INF_003,USER_84978,HKVitals,Immunity Booster,2025-05-02,1,1148.28
-TRK_00028,LinkedIn_influencer,Gritzo_INF_003_2025-04-30,INF_003,USER_72355,Gritzo,Teen Nutrition,2025-05-04,1,1668.49
-TRK_00029,LinkedIn_influencer,MuscleBlaze_INF_003_2025-06-28,INF_003,USER_58717,MuscleBlaze,Pre-Workout,2025-07-03,1,1405.5
-TRK_00030,LinkedIn_influencer,Gritzo_INF_003_2025-06-12,INF_003,USER_29762,Gritzo,DHA Supplement,2025-06-13,1,1011.94
-TRK_00031,LinkedIn_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_69974,MuscleBlaze,Pre-Workout,2025-06-14,1,1308.95
-TRK_00032,LinkedIn_influencer,Gritzo_INF_003_2025-06-12,INF_003,USER_92710,Gritzo,Teen Nutrition,2025-06-15,1,1730.42
-TRK_00033,LinkedIn_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_32099,MuscleBlaze,Whey Protein,2025-06-17,1,2051.48
-TRK_00034,LinkedIn_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_62873,MuscleBlaze,BCAA,2025-06-19,1,1578.42
+TRK_00026,Instagram_influencer,HKVitals_INF_003_2025-04-30,INF_003,USER_48745,HKVitals,Vitamin D,2025-05-01,1,1259.24
+TRK_00027,Instagram_influencer,HKVitals_INF_003_2025-04-30,INF_003,USER_84978,HKVitals,Immunity Booster,2025-05-02,1,1148.28
+TRK_00028,Instagram_influencer,Gritzo_INF_003_2025-04-30,INF_003,USER_72355,Gritzo,Teen Nutrition,2025-05-04,1,1668.49
+TRK_00029,Instagram_influencer,MuscleBlaze_INF_003_2025-06-28,INF_003,USER_58717,MuscleBlaze,Pre-Workout,2025-07-03,1,1405.5
+TRK_00030,Instagram_influencer,Gritzo_INF_003_2025-06-12,INF_003,USER_29762,Gritzo,DHA Supplement,2025-06-13,1,1011.94
+TRK_00031,Instagram_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_69974,MuscleBlaze,Pre-Workout,2025-06-14,1,1308.95
+TRK_00032,Instagram_influencer,Gritzo_INF_003_2025-06-12,INF_003,USER_92710,Gritzo,Teen Nutrition,2025-06-15,1,1730.42
+TRK_00033,Instagram_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_32099,MuscleBlaze,Whey Protein,2025-06-17,1,2051.48
+TRK_00034,Instagram_influencer,MuscleBlaze_INF_003_2025-06-12,INF_003,USER_62873,MuscleBlaze,BCAA,2025-06-19,1,1578.42
 TRK_00035,Instagram_influencer,Gritzo_INF_004_2025-05-21,INF_004,USER_55134,Gritzo,Kids Protein,2025-05-22,1,2317.45
 TRK_00036,Instagram_influencer,MuscleBlaze_INF_004_2025-05-21,INF_004,USER_18557,MuscleBlaze,Mass Gainer,2025-05-23,1,1349.56
 TRK_00037,Instagram_influencer,HKVitals_INF_004_2025-05-21,INF_004,USER_54280,HKVitals,Immunity Booster,2025-05-25,1,1705.65
@@ -42,27 +42,27 @@ TRK_00040,Instagram_influencer,Gritzo_INF_004_2025-05-03,INF_004,USER_87846,Grit
 TRK_00041,Instagram_influencer,MuscleBlaze_INF_004_2025-06-15,INF_004,USER_59840,MuscleBlaze,Whey Protein,2025-06-16,1,2492.44
 TRK_00042,Instagram_influencer,HKVitals_INF_004_2025-06-15,INF_004,USER_99881,HKVitals,Immunity Booster,2025-06-17,1,1545.51
 TRK_00043,Instagram_influencer,Gritzo_INF_004_2025-06-15,INF_004,USER_89381,Gritzo,Kids Protein,2025-06-19,1,2379.0
-TRK_00044,LinkedIn_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_31020,Gritzo,Teen Nutrition,2025-07-01,1,1207.32
-TRK_00045,LinkedIn_influencer,HKVitals_INF_005_2025-06-30,INF_005,USER_40737,HKVitals,Vitamin D,2025-07-02,1,1183.61
-TRK_00046,LinkedIn_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_97690,Gritzo,Kids Protein,2025-07-03,1,3052.09
-TRK_00047,LinkedIn_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_69867,Gritzo,Kids Protein,2025-07-07,1,2939.65
-TRK_00048,LinkedIn_influencer,HKVitals_INF_005_2025-06-30,INF_005,USER_25191,HKVitals,Omega-3,2025-07-13,1,1695.92
-TRK_00049,LinkedIn_influencer,MuscleBlaze_INF_005_2025-05-03,INF_005,USER_91501,MuscleBlaze,BCAA,2025-05-04,1,1288.64
-TRK_00050,LinkedIn_influencer,HKVitals_INF_005_2025-05-09,INF_005,USER_60556,HKVitals,Immunity Booster,2025-05-11,1,1865.57
-TRK_00051,LinkedIn_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_67430,HKVitals,Biotin,2025-06-26,1,1398.23
-TRK_00052,LinkedIn_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_27125,HKVitals,Omega-3,2025-06-27,1,1644.84
-TRK_00053,LinkedIn_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_18301,HKVitals,Multivitamin,2025-06-28,1,1842.99
-TRK_00054,LinkedIn_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_85582,HKVitals,Multivitamin,2025-06-29,1,1704.04
-TRK_00055,LinkedIn_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_91033,Gritzo,Growth Formula,2025-07-01,1,1476.49
-TRK_00056,LinkedIn_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_94070,Gritzo,Teen Nutrition,2025-07-02,1,1423.44
-TRK_00057,LinkedIn_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_74990,Gritzo,Teen Nutrition,2025-07-07,1,1398.04
-TRK_00058,LinkedIn_influencer,Gritzo_INF_005_2025-05-30,INF_005,USER_70174,Gritzo,DHA Supplement,2025-05-31,1,855.4
-TRK_00059,YouTube_influencer,MuscleBlaze_INF_006_2025-05-19,INF_006,USER_10022,MuscleBlaze,Mass Gainer,2025-05-20,1,1309.6
-TRK_00060,YouTube_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_69314,Gritzo,DHA Supplement,2025-06-23,1,1183.39
-TRK_00061,YouTube_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_93055,Gritzo,Teen Nutrition,2025-06-24,1,779.38
-TRK_00062,YouTube_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_31516,Gritzo,Growth Formula,2025-06-26,1,1493.3
-TRK_00063,YouTube_influencer,Gritzo_INF_006_2025-07-05,INF_006,USER_61497,Gritzo,Teen Nutrition,2025-07-06,1,1113.25
-TRK_00064,YouTube_influencer,MuscleBlaze_INF_006_2025-07-05,INF_006,USER_93000,MuscleBlaze,Pre-Workout,2025-07-07,1,913.42
+TRK_00044,Instagram_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_31020,Gritzo,Teen Nutrition,2025-07-01,1,1207.32
+TRK_00045,Instagram_influencer,HKVitals_INF_005_2025-06-30,INF_005,USER_40737,HKVitals,Vitamin D,2025-07-02,1,1183.61
+TRK_00046,Instagram_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_97690,Gritzo,Kids Protein,2025-07-03,1,3052.09
+TRK_00047,Instagram_influencer,Gritzo_INF_005_2025-06-30,INF_005,USER_69867,Gritzo,Kids Protein,2025-07-07,1,2939.65
+TRK_00048,Instagram_influencer,HKVitals_INF_005_2025-06-30,INF_005,USER_25191,HKVitals,Omega-3,2025-07-13,1,1695.92
+TRK_00049,Instagram_influencer,MuscleBlaze_INF_005_2025-05-03,INF_005,USER_91501,MuscleBlaze,BCAA,2025-05-04,1,1288.64
+TRK_00050,Instagram_influencer,HKVitals_INF_005_2025-05-09,INF_005,USER_60556,HKVitals,Immunity Booster,2025-05-11,1,1865.57
+TRK_00051,Instagram_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_67430,HKVitals,Biotin,2025-06-26,1,1398.23
+TRK_00052,Instagram_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_27125,HKVitals,Omega-3,2025-06-27,1,1644.84
+TRK_00053,Instagram_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_18301,HKVitals,Multivitamin,2025-06-28,1,1842.99
+TRK_00054,Instagram_influencer,HKVitals_INF_005_2025-06-25,INF_005,USER_85582,HKVitals,Multivitamin,2025-06-29,1,1704.04
+TRK_00055,Instagram_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_91033,Gritzo,Growth Formula,2025-07-01,1,1476.49
+TRK_00056,Instagram_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_94070,Gritzo,Teen Nutrition,2025-07-02,1,1423.44
+TRK_00057,Instagram_influencer,Gritzo_INF_005_2025-06-25,INF_005,USER_74990,Gritzo,Teen Nutrition,2025-07-07,1,1398.04
+TRK_00058,Instagram_influencer,Gritzo_INF_005_2025-05-30,INF_005,USER_70174,Gritzo,DHA Supplement,2025-05-31,1,855.4
+TRK_00059,Instagram_influencer,MuscleBlaze_INF_006_2025-05-19,INF_006,USER_10022,MuscleBlaze,Mass Gainer,2025-05-20,1,1309.6
+TRK_00060,Instagram_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_69314,Gritzo,DHA Supplement,2025-06-23,1,1183.39
+TRK_00061,Instagram_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_93055,Gritzo,Teen Nutrition,2025-06-24,1,779.38
+TRK_00062,Instagram_influencer,Gritzo_INF_006_2025-06-22,INF_006,USER_31516,Gritzo,Growth Formula,2025-06-26,1,1493.3
+TRK_00063,Instagram_influencer,Gritzo_INF_006_2025-07-05,INF_006,USER_61497,Gritzo,Teen Nutrition,2025-07-06,1,1113.25
+TRK_00064,Instagram_influencer,MuscleBlaze_INF_006_2025-07-05,INF_006,USER_93000,MuscleBlaze,Pre-Workout,2025-07-07,1,913.42
 TRK_00065,Instagram_influencer,Gritzo_INF_007_2025-05-15,INF_007,USER_86692,Gritzo,Kids Protein,2025-05-17,1,2298.53
 TRK_00066,Instagram_influencer,Gritzo_INF_007_2025-05-15,INF_007,USER_26827,Gritzo,Teen Nutrition,2025-05-18,1,1523.78
 TRK_00067,Instagram_influencer,HKVitals_INF_007_2025-06-21,INF_007,USER_42537,HKVitals,Immunity Booster,2025-06-23,1,2139.72
@@ -115,44 +115,44 @@ TRK_00113,Instagram_influencer,MuscleBlaze_INF_010_2025-06-30,INF_010,USER_25509
 TRK_00114,Instagram_influencer,MuscleBlaze_INF_010_2025-05-28,INF_010,USER_85168,MuscleBlaze,Mass Gainer,2025-05-29,1,751.38
 TRK_00115,Instagram_influencer,MuscleBlaze_INF_010_2025-05-28,INF_010,USER_17328,MuscleBlaze,Creatine,2025-05-30,1,859.27
 TRK_00116,Instagram_influencer,MuscleBlaze_INF_010_2025-05-28,INF_010,USER_83872,MuscleBlaze,Creatine,2025-05-31,1,1988.63
-TRK_00117,Instagram_influencer,HKVitals_INF_011_2025-07-08,INF_011,USER_33839,HKVitals,Biotin,2025-07-10,1,987.31
-TRK_00118,Instagram_influencer,Gritzo_INF_011_2025-07-08,INF_011,USER_19023,Gritzo,Growth Formula,2025-07-13,1,1943.64
-TRK_00119,Instagram_influencer,HKVitals_INF_011_2025-07-08,INF_011,USER_76107,HKVitals,Vitamin D,2025-07-14,1,572.34
-TRK_00120,Instagram_influencer,Gritzo_INF_011_2025-06-21,INF_011,USER_25403,Gritzo,Kids Protein,2025-06-22,1,2834.33
-TRK_00121,Instagram_influencer,Gritzo_INF_011_2025-06-21,INF_011,USER_10157,Gritzo,Teen Nutrition,2025-06-23,1,1897.17
-TRK_00122,Instagram_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_66224,HKVitals,Omega-3,2025-07-27,1,1922.91
-TRK_00123,Instagram_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_85513,HKVitals,Immunity Booster,2025-07-28,1,1294.99
-TRK_00124,Instagram_influencer,MuscleBlaze_INF_011_2025-07-26,INF_011,USER_20986,MuscleBlaze,Pre-Workout,2025-07-29,1,1299.14
-TRK_00125,Instagram_influencer,Gritzo_INF_011_2025-07-26,INF_011,USER_10932,Gritzo,DHA Supplement,2025-07-30,1,682.85
-TRK_00126,Instagram_influencer,MuscleBlaze_INF_011_2025-07-26,INF_011,USER_51405,MuscleBlaze,Mass Gainer,2025-08-01,1,1644.99
-TRK_00127,Instagram_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_65517,HKVitals,Biotin,2025-08-03,1,1182.76
-TRK_00128,Instagram_influencer,Gritzo_INF_011_2025-05-04,INF_011,USER_96413,Gritzo,DHA Supplement,2025-05-05,1,1323.52
-TRK_00129,Instagram_influencer,MuscleBlaze_INF_011_2025-05-04,INF_011,USER_23143,MuscleBlaze,Mass Gainer,2025-05-06,1,1896.04
-TRK_00130,Instagram_influencer,HKVitals_INF_011_2025-05-04,INF_011,USER_99727,HKVitals,Omega-3,2025-05-07,1,1801.18
-TRK_00131,Instagram_influencer,Gritzo_INF_011_2025-05-04,INF_011,USER_71822,Gritzo,Kids Protein,2025-05-09,1,2881.54
-TRK_00132,Instagram_influencer,MuscleBlaze_INF_011_2025-05-04,INF_011,USER_60374,MuscleBlaze,Pre-Workout,2025-05-12,1,813.21
-TRK_00133,Instagram_influencer,Gritzo_INF_011_2025-05-07,INF_011,USER_93924,Gritzo,Kids Protein,2025-05-08,1,3105.5
-TRK_00134,Instagram_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_77915,MuscleBlaze,BCAA,2025-05-09,1,1977.54
-TRK_00135,Instagram_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_90634,MuscleBlaze,Creatine,2025-05-10,1,1468.73
-TRK_00136,Instagram_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_30636,MuscleBlaze,Pre-Workout,2025-05-11,1,978.46
-TRK_00137,Instagram_influencer,HKVitals_INF_011_2025-05-07,INF_011,USER_86818,HKVitals,Immunity Booster,2025-05-12,1,1198.09
-TRK_00138,LinkedIn_influencer,Gritzo_INF_012_2025-07-21,INF_012,USER_39661,Gritzo,Growth Formula,2025-07-22,1,1293.76
-TRK_00139,LinkedIn_influencer,MuscleBlaze_INF_012_2025-07-21,INF_012,USER_44223,MuscleBlaze,Mass Gainer,2025-07-23,1,1944.36
-TRK_00140,Instagram_influencer,HKVitals_INF_013_2025-05-03,INF_013,USER_54520,HKVitals,Biotin,2025-05-04,1,1309.48
-TRK_00141,Instagram_influencer,HKVitals_INF_013_2025-05-03,INF_013,USER_43792,HKVitals,Biotin,2025-05-06,1,1827.81
-TRK_00142,Instagram_influencer,Gritzo_INF_013_2025-05-03,INF_013,USER_51383,Gritzo,Teen Nutrition,2025-05-07,1,1525.21
-TRK_00143,Instagram_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_19965,MuscleBlaze,Mass Gainer,2025-05-21,1,1711.72
-TRK_00144,Instagram_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_85197,MuscleBlaze,Mass Gainer,2025-05-22,1,1110.42
-TRK_00145,Instagram_influencer,Gritzo_INF_013_2025-05-20,INF_013,USER_41726,Gritzo,Teen Nutrition,2025-05-23,1,1314.78
-TRK_00146,Instagram_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_23983,MuscleBlaze,BCAA,2025-05-25,1,1751.67
-TRK_00147,Instagram_influencer,Gritzo_INF_013_2025-06-10,INF_013,USER_51342,Gritzo,Kids Protein,2025-06-11,1,2700.61
-TRK_00148,Instagram_influencer,Gritzo_INF_013_2025-06-10,INF_013,USER_76995,Gritzo,Growth Formula,2025-06-12,1,1523.53
-TRK_00149,Instagram_influencer,MuscleBlaze_INF_013_2025-06-10,INF_013,USER_65466,MuscleBlaze,Creatine,2025-06-13,1,958.8
-TRK_00150,Instagram_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_86153,HKVitals,Multivitamin,2025-07-14,1,767.08
-TRK_00151,Instagram_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_44452,HKVitals,Biotin,2025-07-15,1,1719.44
-TRK_00152,Instagram_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_65567,HKVitals,Biotin,2025-07-16,1,1135.11
-TRK_00153,Instagram_influencer,Gritzo_INF_013_2025-07-13,INF_013,USER_69077,Gritzo,Growth Formula,2025-07-17,1,1213.48
-TRK_00154,Instagram_influencer,MuscleBlaze_INF_013_2025-07-13,INF_013,USER_45382,MuscleBlaze,Creatine,2025-07-18,1,1725.21
+TRK_00117,YouTube_influencer,HKVitals_INF_011_2025-07-08,INF_011,USER_33839,HKVitals,Biotin,2025-07-10,1,987.31
+TRK_00118,YouTube_influencer,Gritzo_INF_011_2025-07-08,INF_011,USER_19023,Gritzo,Growth Formula,2025-07-13,1,1943.64
+TRK_00119,YouTube_influencer,HKVitals_INF_011_2025-07-08,INF_011,USER_76107,HKVitals,Vitamin D,2025-07-14,1,572.34
+TRK_00120,YouTube_influencer,Gritzo_INF_011_2025-06-21,INF_011,USER_25403,Gritzo,Kids Protein,2025-06-22,1,2834.33
+TRK_00121,YouTube_influencer,Gritzo_INF_011_2025-06-21,INF_011,USER_10157,Gritzo,Teen Nutrition,2025-06-23,1,1897.17
+TRK_00122,YouTube_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_66224,HKVitals,Omega-3,2025-07-27,1,1922.91
+TRK_00123,YouTube_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_85513,HKVitals,Immunity Booster,2025-07-28,1,1294.99
+TRK_00124,YouTube_influencer,MuscleBlaze_INF_011_2025-07-26,INF_011,USER_20986,MuscleBlaze,Pre-Workout,2025-07-29,1,1299.14
+TRK_00125,YouTube_influencer,Gritzo_INF_011_2025-07-26,INF_011,USER_10932,Gritzo,DHA Supplement,2025-07-30,1,682.85
+TRK_00126,YouTube_influencer,MuscleBlaze_INF_011_2025-07-26,INF_011,USER_51405,MuscleBlaze,Mass Gainer,2025-08-01,1,1644.99
+TRK_00127,YouTube_influencer,HKVitals_INF_011_2025-07-26,INF_011,USER_65517,HKVitals,Biotin,2025-08-03,1,1182.76
+TRK_00128,YouTube_influencer,Gritzo_INF_011_2025-05-04,INF_011,USER_96413,Gritzo,DHA Supplement,2025-05-05,1,1323.52
+TRK_00129,YouTube_influencer,MuscleBlaze_INF_011_2025-05-04,INF_011,USER_23143,MuscleBlaze,Mass Gainer,2025-05-06,1,1896.04
+TRK_00130,YouTube_influencer,HKVitals_INF_011_2025-05-04,INF_011,USER_99727,HKVitals,Omega-3,2025-05-07,1,1801.18
+TRK_00131,YouTube_influencer,Gritzo_INF_011_2025-05-04,INF_011,USER_71822,Gritzo,Kids Protein,2025-05-09,1,2881.54
+TRK_00132,YouTube_influencer,MuscleBlaze_INF_011_2025-05-04,INF_011,USER_60374,MuscleBlaze,Pre-Workout,2025-05-12,1,813.21
+TRK_00133,YouTube_influencer,Gritzo_INF_011_2025-05-07,INF_011,USER_93924,Gritzo,Kids Protein,2025-05-08,1,3105.5
+TRK_00134,YouTube_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_77915,MuscleBlaze,BCAA,2025-05-09,1,1977.54
+TRK_00135,YouTube_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_90634,MuscleBlaze,Creatine,2025-05-10,1,1468.73
+TRK_00136,YouTube_influencer,MuscleBlaze_INF_011_2025-05-07,INF_011,USER_30636,MuscleBlaze,Pre-Workout,2025-05-11,1,978.46
+TRK_00137,YouTube_influencer,HKVitals_INF_011_2025-05-07,INF_011,USER_86818,HKVitals,Immunity Booster,2025-05-12,1,1198.09
+TRK_00138,YouTube_influencer,Gritzo_INF_012_2025-07-21,INF_012,USER_39661,Gritzo,Growth Formula,2025-07-22,1,1293.76
+TRK_00139,YouTube_influencer,MuscleBlaze_INF_012_2025-07-21,INF_012,USER_44223,MuscleBlaze,Mass Gainer,2025-07-23,1,1944.36
+TRK_00140,YouTube_influencer,HKVitals_INF_013_2025-05-03,INF_013,USER_54520,HKVitals,Biotin,2025-05-04,1,1309.48
+TRK_00141,YouTube_influencer,HKVitals_INF_013_2025-05-03,INF_013,USER_43792,HKVitals,Biotin,2025-05-06,1,1827.81
+TRK_00142,YouTube_influencer,Gritzo_INF_013_2025-05-03,INF_013,USER_51383,Gritzo,Teen Nutrition,2025-05-07,1,1525.21
+TRK_00143,YouTube_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_19965,MuscleBlaze,Mass Gainer,2025-05-21,1,1711.72
+TRK_00144,YouTube_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_85197,MuscleBlaze,Mass Gainer,2025-05-22,1,1110.42
+TRK_00145,YouTube_influencer,Gritzo_INF_013_2025-05-20,INF_013,USER_41726,Gritzo,Teen Nutrition,2025-05-23,1,1314.78
+TRK_00146,YouTube_influencer,MuscleBlaze_INF_013_2025-05-20,INF_013,USER_23983,MuscleBlaze,BCAA,2025-05-25,1,1751.67
+TRK_00147,YouTube_influencer,Gritzo_INF_013_2025-06-10,INF_013,USER_51342,Gritzo,Kids Protein,2025-06-11,1,2700.61
+TRK_00148,YouTube_influencer,Gritzo_INF_013_2025-06-10,INF_013,USER_76995,Gritzo,Growth Formula,2025-06-12,1,1523.53
+TRK_00149,YouTube_influencer,MuscleBlaze_INF_013_2025-06-10,INF_013,USER_65466,MuscleBlaze,Creatine,2025-06-13,1,958.8
+TRK_00150,YouTube_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_86153,HKVitals,Multivitamin,2025-07-14,1,767.08
+TRK_00151,YouTube_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_44452,HKVitals,Biotin,2025-07-15,1,1719.44
+TRK_00152,YouTube_influencer,HKVitals_INF_013_2025-07-13,INF_013,USER_65567,HKVitals,Biotin,2025-07-16,1,1135.11
+TRK_00153,YouTube_influencer,Gritzo_INF_013_2025-07-13,INF_013,USER_69077,Gritzo,Growth Formula,2025-07-17,1,1213.48
+TRK_00154,YouTube_influencer,MuscleBlaze_INF_013_2025-07-13,INF_013,USER_45382,MuscleBlaze,Creatine,2025-07-18,1,1725.21
 TRK_00155,YouTube_influencer,Gritzo_INF_014_2025-04-28,INF_014,USER_83680,Gritzo,Growth Formula,2025-04-29,1,1672.72
 TRK_00156,YouTube_influencer,MuscleBlaze_INF_014_2025-04-28,INF_014,USER_72460,MuscleBlaze,BCAA,2025-05-01,1,926.78
 TRK_00157,YouTube_influencer,Gritzo_INF_014_2025-04-28,INF_014,USER_83071,Gritzo,Growth Formula,2025-05-03,1,1080.66
@@ -196,39 +196,39 @@ TRK_00194,YouTube_influencer,MuscleBlaze_INF_015_2025-07-20,INF_015,USER_38298,M
 TRK_00195,YouTube_influencer,Gritzo_INF_015_2025-07-20,INF_015,USER_78969,Gritzo,Teen Nutrition,2025-07-24,1,1348.68
 TRK_00196,YouTube_influencer,HKVitals_INF_015_2025-07-07,INF_015,USER_98407,HKVitals,Multivitamin,2025-07-08,1,1745.87
 TRK_00197,YouTube_influencer,Gritzo_INF_015_2025-07-07,INF_015,USER_33644,Gritzo,DHA Supplement,2025-07-09,1,1290.68
-TRK_00198,LinkedIn_influencer,Gritzo_INF_016_2025-05-09,INF_016,USER_41551,Gritzo,DHA Supplement,2025-05-10,1,1279.33
-TRK_00199,LinkedIn_influencer,MuscleBlaze_INF_016_2025-05-09,INF_016,USER_43303,MuscleBlaze,Mass Gainer,2025-05-11,1,1865.35
-TRK_00200,LinkedIn_influencer,HKVitals_INF_016_2025-05-09,INF_016,USER_14543,HKVitals,Immunity Booster,2025-05-12,1,1756.69
-TRK_00201,LinkedIn_influencer,Gritzo_INF_016_2025-05-09,INF_016,USER_84798,Gritzo,Growth Formula,2025-05-21,1,1907.22
-TRK_00202,LinkedIn_influencer,Gritzo_INF_017_2025-07-12,INF_017,USER_73246,Gritzo,Teen Nutrition,2025-07-13,1,1756.29
-TRK_00203,LinkedIn_influencer,Gritzo_INF_017_2025-07-12,INF_017,USER_85534,Gritzo,Kids Protein,2025-07-14,1,2297.32
-TRK_00204,LinkedIn_influencer,HKVitals_INF_017_2025-06-18,INF_017,USER_39716,HKVitals,Immunity Booster,2025-06-19,1,1770.86
-TRK_00205,LinkedIn_influencer,Gritzo_INF_017_2025-06-18,INF_017,USER_52838,Gritzo,Kids Protein,2025-06-25,1,2004.67
-TRK_00206,LinkedIn_influencer,Gritzo_INF_017_2025-06-18,INF_017,USER_85399,Gritzo,DHA Supplement,2025-06-28,1,1545.43
+TRK_00198,YouTube_influencer,Gritzo_INF_016_2025-05-09,INF_016,USER_41551,Gritzo,DHA Supplement,2025-05-10,1,1279.33
+TRK_00199,YouTube_influencer,MuscleBlaze_INF_016_2025-05-09,INF_016,USER_43303,MuscleBlaze,Mass Gainer,2025-05-11,1,1865.35
+TRK_00200,YouTube_influencer,HKVitals_INF_016_2025-05-09,INF_016,USER_14543,HKVitals,Immunity Booster,2025-05-12,1,1756.69
+TRK_00201,YouTube_influencer,Gritzo_INF_016_2025-05-09,INF_016,USER_84798,Gritzo,Growth Formula,2025-05-21,1,1907.22
+TRK_00202,YouTube_influencer,Gritzo_INF_017_2025-07-12,INF_017,USER_73246,Gritzo,Teen Nutrition,2025-07-13,1,1756.29
+TRK_00203,YouTube_influencer,Gritzo_INF_017_2025-07-12,INF_017,USER_85534,Gritzo,Kids Protein,2025-07-14,1,2297.32
+TRK_00204,YouTube_influencer,HKVitals_INF_017_2025-06-18,INF_017,USER_39716,HKVitals,Immunity Booster,2025-06-19,1,1770.86
+TRK_00205,YouTube_influencer,Gritzo_INF_017_2025-06-18,INF_017,USER_52838,Gritzo,Kids Protein,2025-06-25,1,2004.67
+TRK_00206,YouTube_influencer,Gritzo_INF_017_2025-06-18,INF_017,USER_85399,Gritzo,DHA Supplement,2025-06-28,1,1545.43
 TRK_00207,YouTube_influencer,HKVitals_INF_018_2025-07-08,INF_018,USER_84885,HKVitals,Biotin,2025-07-09,1,1016.0
 TRK_00208,YouTube_influencer,Gritzo_INF_018_2025-07-08,INF_018,USER_66369,Gritzo,Teen Nutrition,2025-07-10,1,1039.79
 TRK_00209,YouTube_influencer,Gritzo_INF_018_2025-07-08,INF_018,USER_57876,Gritzo,Kids Protein,2025-07-11,1,1639.95
-TRK_00210,LinkedIn_influencer,Gritzo_INF_019_2025-05-23,INF_019,USER_21247,Gritzo,Growth Formula,2025-05-29,1,1032.3
-TRK_00211,LinkedIn_influencer,MuscleBlaze_INF_019_2025-05-23,INF_019,USER_47707,MuscleBlaze,BCAA,2025-05-30,1,2104.19
-TRK_00212,LinkedIn_influencer,Gritzo_INF_019_2025-05-23,INF_019,USER_53499,Gritzo,Kids Protein,2025-05-31,1,1946.4
-TRK_00213,LinkedIn_influencer,Gritzo_INF_019_2025-06-13,INF_019,USER_79048,Gritzo,Kids Protein,2025-06-14,1,2232.6
-TRK_00214,LinkedIn_influencer,MuscleBlaze_INF_019_2025-06-13,INF_019,USER_90997,MuscleBlaze,Whey Protein,2025-06-15,1,2037.42
-TRK_00215,LinkedIn_influencer,HKVitals_INF_019_2025-06-13,INF_019,USER_96898,HKVitals,Multivitamin,2025-06-16,1,908.14
-TRK_00216,LinkedIn_influencer,MuscleBlaze_INF_019_2025-07-14,INF_019,USER_60662,MuscleBlaze,Whey Protein,2025-07-15,1,2087.41
-TRK_00217,LinkedIn_influencer,HKVitals_INF_019_2025-07-14,INF_019,USER_51347,HKVitals,Biotin,2025-07-16,1,1814.02
-TRK_00218,LinkedIn_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_70029,Gritzo,Kids Protein,2025-07-17,1,1779.86
-TRK_00219,LinkedIn_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_30578,Gritzo,Growth Formula,2025-07-20,1,1174.69
-TRK_00220,LinkedIn_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_75700,Gritzo,Growth Formula,2025-07-21,1,1177.97
-TRK_00221,LinkedIn_influencer,HKVitals_INF_019_2025-07-14,INF_019,USER_13862,HKVitals,Immunity Booster,2025-07-23,1,1986.14
-TRK_00222,LinkedIn_influencer,Gritzo_INF_019_2025-06-10,INF_019,USER_65897,Gritzo,Teen Nutrition,2025-06-12,1,1319.77
-TRK_00223,LinkedIn_influencer,Gritzo_INF_019_2025-06-10,INF_019,USER_78656,Gritzo,Teen Nutrition,2025-06-18,1,1765.0
-TRK_00224,LinkedIn_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_25517,Gritzo,Teen Nutrition,2025-05-19,1,1194.54
-TRK_00225,LinkedIn_influencer,MuscleBlaze_INF_019_2025-05-18,INF_019,USER_64269,MuscleBlaze,Whey Protein,2025-05-20,1,2849.48
-TRK_00226,LinkedIn_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_27241,Gritzo,Growth Formula,2025-05-22,1,921.04
-TRK_00227,LinkedIn_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_88166,Gritzo,Growth Formula,2025-05-23,1,1561.03
-TRK_00228,LinkedIn_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_72469,Gritzo,Kids Protein,2025-05-24,1,2115.61
-TRK_00229,LinkedIn_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_60785,Gritzo,DHA Supplement,2025-05-25,1,1181.47
-TRK_00230,LinkedIn_influencer,MuscleBlaze_INF_019_2025-05-18,INF_019,USER_97993,MuscleBlaze,Pre-Workout,2025-05-29,1,1832.58
+TRK_00210,YouTube_influencer,Gritzo_INF_019_2025-05-23,INF_019,USER_21247,Gritzo,Growth Formula,2025-05-29,1,1032.3
+TRK_00211,YouTube_influencer,MuscleBlaze_INF_019_2025-05-23,INF_019,USER_47707,MuscleBlaze,BCAA,2025-05-30,1,2104.19
+TRK_00212,YouTube_influencer,Gritzo_INF_019_2025-05-23,INF_019,USER_53499,Gritzo,Kids Protein,2025-05-31,1,1946.4
+TRK_00213,YouTube_influencer,Gritzo_INF_019_2025-06-13,INF_019,USER_79048,Gritzo,Kids Protein,2025-06-14,1,2232.6
+TRK_00214,YouTube_influencer,MuscleBlaze_INF_019_2025-06-13,INF_019,USER_90997,MuscleBlaze,Whey Protein,2025-06-15,1,2037.42
+TRK_00215,YouTube_influencer,HKVitals_INF_019_2025-06-13,INF_019,USER_96898,HKVitals,Multivitamin,2025-06-16,1,908.14
+TRK_00216,YouTube_influencer,MuscleBlaze_INF_019_2025-07-14,INF_019,USER_60662,MuscleBlaze,Whey Protein,2025-07-15,1,2087.41
+TRK_00217,YouTube_influencer,HKVitals_INF_019_2025-07-14,INF_019,USER_51347,HKVitals,Biotin,2025-07-16,1,1814.02
+TRK_00218,YouTube_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_70029,Gritzo,Kids Protein,2025-07-17,1,1779.86
+TRK_00219,YouTube_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_30578,Gritzo,Growth Formula,2025-07-20,1,1174.69
+TRK_00220,YouTube_influencer,Gritzo_INF_019_2025-07-14,INF_019,USER_75700,Gritzo,Growth Formula,2025-07-21,1,1177.97
+TRK_00221,YouTube_influencer,HKVitals_INF_019_2025-07-14,INF_019,USER_13862,HKVitals,Immunity Booster,2025-07-23,1,1986.14
+TRK_00222,YouTube_influencer,Gritzo_INF_019_2025-06-10,INF_019,USER_65897,Gritzo,Teen Nutrition,2025-06-12,1,1319.77
+TRK_00223,YouTube_influencer,Gritzo_INF_019_2025-06-10,INF_019,USER_78656,Gritzo,Teen Nutrition,2025-06-18,1,1765.0
+TRK_00224,YouTube_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_25517,Gritzo,Teen Nutrition,2025-05-19,1,1194.54
+TRK_00225,YouTube_influencer,MuscleBlaze_INF_019_2025-05-18,INF_019,USER_64269,MuscleBlaze,Whey Protein,2025-05-20,1,2849.48
+TRK_00226,YouTube_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_27241,Gritzo,Growth Formula,2025-05-22,1,921.04
+TRK_00227,YouTube_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_88166,Gritzo,Growth Formula,2025-05-23,1,1561.03
+TRK_00228,YouTube_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_72469,Gritzo,Kids Protein,2025-05-24,1,2115.61
+TRK_00229,YouTube_influencer,Gritzo_INF_019_2025-05-18,INF_019,USER_60785,Gritzo,DHA Supplement,2025-05-25,1,1181.47
+TRK_00230,YouTube_influencer,MuscleBlaze_INF_019_2025-05-18,INF_019,USER_97993,MuscleBlaze,Pre-Workout,2025-05-29,1,1832.58
 TRK_00231,YouTube_influencer,HKVitals_INF_020_2025-05-31,INF_020,USER_15482,HKVitals,Immunity Booster,2025-06-02,1,1838.08
 TRK_00232,YouTube_influencer,Gritzo_INF_020_2025-07-02,INF_020,USER_15559,Gritzo,Kids Protein,2025-07-03,1,2319.82
 TRK_00233,YouTube_influencer,Gritzo_INF_020_2025-07-02,INF_020,USER_60777,Gritzo,DHA Supplement,2025-07-05,1,1347.1
@@ -260,291 +260,75 @@ TRK_00258,LinkedIn_influencer,HKVitals_INF_023_2025-07-17,INF_023,USER_77652,HKV
 TRK_00259,LinkedIn_influencer,Gritzo_INF_023_2025-07-17,INF_023,USER_78464,Gritzo,Kids Protein,2025-07-20,1,2282.6
 TRK_00260,LinkedIn_influencer,HKVitals_INF_023_2025-07-17,INF_023,USER_21413,HKVitals,Multivitamin,2025-07-21,1,1655.1
 TRK_00261,LinkedIn_influencer,Gritzo_INF_023_2025-07-17,INF_023,USER_93735,Gritzo,Growth Formula,2025-07-24,1,869.73
-TRK_00262,YouTube_influencer,Gritzo_INF_024_2025-05-18,INF_024,USER_47128,Gritzo,Growth Formula,2025-05-19,1,1392.42
-TRK_00263,YouTube_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_80854,MuscleBlaze,Whey Protein,2025-05-20,1,2121.38
-TRK_00264,YouTube_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_23884,MuscleBlaze,Whey Protein,2025-05-21,1,2283.54
-TRK_00265,YouTube_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_87693,MuscleBlaze,Mass Gainer,2025-05-22,1,1322.3
-TRK_00266,Instagram_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_71377,HKVitals,Biotin,2025-06-27,1,1018.11
-TRK_00267,Instagram_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_28837,HKVitals,Immunity Booster,2025-06-28,1,1486.78
-TRK_00268,Instagram_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_32387,HKVitals,Multivitamin,2025-07-08,1,1212.26
-TRK_00269,Instagram_influencer,Gritzo_INF_025_2025-07-11,INF_025,USER_62535,Gritzo,Kids Protein,2025-07-12,1,2706.25
-TRK_00270,Instagram_influencer,MuscleBlaze_INF_025_2025-07-11,INF_025,USER_73225,MuscleBlaze,Creatine,2025-07-13,1,1017.93
-TRK_00271,Instagram_influencer,HKVitals_INF_025_2025-05-23,INF_025,USER_40953,HKVitals,Biotin,2025-05-24,1,1760.33
-TRK_00272,Instagram_influencer,Gritzo_INF_025_2025-05-23,INF_025,USER_73783,Gritzo,Kids Protein,2025-05-25,1,2719.63
-TRK_00273,Instagram_influencer,Gritzo_INF_025_2025-05-23,INF_025,USER_68355,Gritzo,DHA Supplement,2025-05-26,1,758.96
-TRK_00274,Instagram_influencer,HKVitals_INF_025_2025-05-23,INF_025,USER_88172,HKVitals,Multivitamin,2025-05-27,1,1574.23
-TRK_00275,Instagram_influencer,MuscleBlaze_INF_025_2025-05-23,INF_025,USER_10024,MuscleBlaze,Creatine,2025-06-01,1,1935.2
-TRK_00276,Instagram_influencer,HKVitals_INF_025_2025-05-10,INF_025,USER_99327,HKVitals,Biotin,2025-05-11,1,1402.61
-TRK_00277,Instagram_influencer,Gritzo_INF_025_2025-05-10,INF_025,USER_55123,Gritzo,Growth Formula,2025-05-13,1,2068.33
-TRK_00278,Instagram_influencer,Gritzo_INF_025_2025-07-21,INF_025,USER_57086,Gritzo,Kids Protein,2025-07-22,1,1519.29
-TRK_00279,Instagram_influencer,HKVitals_INF_026_2025-06-22,INF_026,USER_72242,HKVitals,Immunity Booster,2025-06-23,1,1501.4
-TRK_00280,Instagram_influencer,Gritzo_INF_026_2025-06-22,INF_026,USER_64687,Gritzo,DHA Supplement,2025-06-24,1,1305.79
-TRK_00281,Instagram_influencer,Gritzo_INF_026_2025-06-22,INF_026,USER_12058,Gritzo,Teen Nutrition,2025-06-25,1,878.81
-TRK_00282,Instagram_influencer,HKVitals_INF_026_2025-06-22,INF_026,USER_27985,HKVitals,Immunity Booster,2025-06-26,1,1826.47
-TRK_00283,Instagram_influencer,Gritzo_INF_027_2025-05-27,INF_027,USER_81587,Gritzo,Teen Nutrition,2025-05-28,1,1578.2
-TRK_00284,Instagram_influencer,MuscleBlaze_INF_027_2025-05-27,INF_027,USER_24832,MuscleBlaze,Whey Protein,2025-05-29,1,2448.61
-TRK_00285,Instagram_influencer,Gritzo_INF_027_2025-05-27,INF_027,USER_89963,Gritzo,Growth Formula,2025-06-01,1,1243.38
-TRK_00286,Instagram_influencer,HKVitals_INF_027_2025-05-27,INF_027,USER_85973,HKVitals,Multivitamin,2025-06-02,1,1633.6
-TRK_00287,Instagram_influencer,HKVitals_INF_027_2025-05-27,INF_027,USER_77195,HKVitals,Biotin,2025-06-04,1,1723.43
-TRK_00288,Instagram_influencer,MuscleBlaze_INF_027_2025-05-08,INF_027,USER_83886,MuscleBlaze,Creatine,2025-05-09,1,1776.45
-TRK_00289,Instagram_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_96025,Gritzo,DHA Supplement,2025-05-10,1,1093.85
-TRK_00290,Instagram_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_24621,Gritzo,Growth Formula,2025-06-07,1,1075.32
-TRK_00291,Instagram_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_32989,Gritzo,Teen Nutrition,2025-06-08,1,1549.55
-TRK_00292,Instagram_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_14337,Gritzo,Teen Nutrition,2025-06-09,1,1464.64
-TRK_00293,Instagram_influencer,MuscleBlaze_INF_027_2025-06-06,INF_027,USER_75004,MuscleBlaze,BCAA,2025-06-10,1,1612.11
-TRK_00294,Instagram_influencer,MuscleBlaze_INF_027_2025-05-07,INF_027,USER_94182,MuscleBlaze,Creatine,2025-05-08,1,1629.14
-TRK_00295,Instagram_influencer,MuscleBlaze_INF_027_2025-05-07,INF_027,USER_49500,MuscleBlaze,Whey Protein,2025-05-09,1,1715.93
-TRK_00296,Instagram_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_72205,Gritzo,Teen Nutrition,2025-05-10,1,1307.4
-TRK_00297,Instagram_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_68827,Gritzo,DHA Supplement,2025-05-11,1,555.6
-TRK_00298,Instagram_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_95467,Gritzo,Growth Formula,2025-05-16,1,1920.85
-TRK_00299,Instagram_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_35549,Gritzo,Teen Nutrition,2025-05-09,1,1711.01
-TRK_00300,Instagram_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_11110,Gritzo,Teen Nutrition,2025-05-10,1,1060.82
-TRK_00301,Instagram_influencer,MuscleBlaze_INF_027_2025-05-08,INF_027,USER_38759,MuscleBlaze,Creatine,2025-05-12,1,914.69
-TRK_00302,Instagram_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_38419,Gritzo,Kids Protein,2025-05-15,1,1615.17
-TRK_00303,Instagram_influencer,MuscleBlaze_INF_027_2025-04-28,INF_027,USER_96034,MuscleBlaze,Whey Protein,2025-04-29,1,2578.54
-TRK_00304,Instagram_influencer,MuscleBlaze_INF_027_2025-04-28,INF_027,USER_19924,MuscleBlaze,BCAA,2025-05-03,1,1096.71
-TRK_00305,YouTube_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_67747,MuscleBlaze,Pre-Workout,2025-05-01,1,1855.1
-TRK_00306,YouTube_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_24212,MuscleBlaze,Creatine,2025-05-02,1,1308.15
-TRK_00307,YouTube_influencer,HKVitals_INF_028_2025-04-30,INF_028,USER_67878,HKVitals,Vitamin D,2025-05-03,1,1026.24
-TRK_00308,YouTube_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_68442,MuscleBlaze,Whey Protein,2025-05-05,1,2239.45
-TRK_00309,YouTube_influencer,HKVitals_INF_028_2025-04-30,INF_028,USER_14959,HKVitals,Vitamin D,2025-05-06,1,1037.78
-TRK_00310,YouTube_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_19188,Gritzo,DHA Supplement,2025-07-01,1,959.34
-TRK_00311,YouTube_influencer,MuscleBlaze_INF_028_2025-06-30,INF_028,USER_73185,MuscleBlaze,Mass Gainer,2025-07-02,1,2068.68
-TRK_00312,YouTube_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_17234,Gritzo,Growth Formula,2025-07-03,1,1152.8
-TRK_00313,YouTube_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_48005,Gritzo,Growth Formula,2025-07-06,1,889.31
-TRK_00314,Instagram_influencer,HKVitals_INF_029_2025-05-02,INF_029,USER_34833,HKVitals,Immunity Booster,2025-05-03,1,925.79
-TRK_00315,Instagram_influencer,MuscleBlaze_INF_029_2025-05-02,INF_029,USER_74124,MuscleBlaze,Whey Protein,2025-05-04,1,2627.56
-TRK_00316,Instagram_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_54470,Gritzo,DHA Supplement,2025-06-05,1,1324.73
-TRK_00317,Instagram_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_95701,Gritzo,Kids Protein,2025-06-06,1,1986.69
-TRK_00318,Instagram_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_28558,Gritzo,Teen Nutrition,2025-06-11,1,1732.89
-TRK_00319,Instagram_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_11882,Gritzo,Kids Protein,2025-06-13,1,1919.49
-TRK_00320,Instagram_influencer,HKVitals_INF_029_2025-06-04,INF_029,USER_87469,HKVitals,Multivitamin,2025-06-15,1,1258.68
-TRK_00321,Instagram_influencer,Gritzo_INF_029_2025-05-19,INF_029,USER_54216,Gritzo,Teen Nutrition,2025-05-20,1,823.65
-TRK_00322,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_37948,MuscleBlaze,Creatine,2025-07-23,1,1403.14
-TRK_00323,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_58487,MuscleBlaze,Pre-Workout,2025-07-26,1,953.03
-TRK_00324,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_73827,MuscleBlaze,Creatine,2025-07-30,1,1165.7
-TRK_00325,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_87821,MuscleBlaze,BCAA,2025-07-31,1,1990.4
-TRK_00326,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_69037,MuscleBlaze,BCAA,2025-07-23,1,927.19
-TRK_00327,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_75521,MuscleBlaze,Creatine,2025-07-24,1,1661.39
-TRK_00328,YouTube_influencer,HKVitals_INF_030_2025-07-22,INF_030,USER_35153,HKVitals,Omega-3,2025-07-26,1,1317.58
-TRK_00329,YouTube_influencer,Gritzo_INF_030_2025-07-22,INF_030,USER_80742,Gritzo,Kids Protein,2025-07-27,1,2604.55
-TRK_00330,YouTube_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_72182,MuscleBlaze,BCAA,2025-08-01,1,1774.33
-TRK_00331,YouTube_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_13809,MuscleBlaze,Whey Protein,2025-06-16,1,2700.13
-TRK_00332,YouTube_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_87687,MuscleBlaze,Whey Protein,2025-06-17,1,2968.49
-TRK_00333,YouTube_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_36208,MuscleBlaze,Whey Protein,2025-06-23,1,1823.24
-TRK_00334,Instagram_influencer,HKVitals_INF_031_2025-05-13,INF_031,USER_57001,HKVitals,Vitamin D,2025-05-14,1,899.16
-TRK_00335,Instagram_influencer,MuscleBlaze_INF_031_2025-05-13,INF_031,USER_27891,MuscleBlaze,Whey Protein,2025-05-16,1,2314.77
-TRK_00336,Instagram_influencer,HKVitals_INF_031_2025-05-13,INF_031,USER_38816,HKVitals,Immunity Booster,2025-05-17,1,1369.65
-TRK_00337,Instagram_influencer,Gritzo_INF_031_2025-05-02,INF_031,USER_74122,Gritzo,Teen Nutrition,2025-05-03,1,968.29
-TRK_00338,Instagram_influencer,HKVitals_INF_031_2025-05-02,INF_031,USER_42329,HKVitals,Immunity Booster,2025-05-05,1,1187.22
-TRK_00339,Instagram_influencer,MuscleBlaze_INF_031_2025-06-25,INF_031,USER_76088,MuscleBlaze,Whey Protein,2025-06-28,1,3126.38
-TRK_00340,Instagram_influencer,HKVitals_INF_032_2025-05-29,INF_032,USER_63296,HKVitals,Vitamin D,2025-05-30,1,612.61
-TRK_00341,Instagram_influencer,HKVitals_INF_032_2025-05-29,INF_032,USER_72886,HKVitals,Vitamin D,2025-06-01,1,1053.7
-TRK_00342,Instagram_influencer,HKVitals_INF_032_2025-05-29,INF_032,USER_69616,HKVitals,Biotin,2025-06-03,1,1535.35
-TRK_00343,Instagram_influencer,Gritzo_INF_032_2025-05-29,INF_032,USER_92157,Gritzo,DHA Supplement,2025-06-05,1,735.84
-TRK_00344,Instagram_influencer,Gritzo_INF_032_2025-05-29,INF_032,USER_45361,Gritzo,Growth Formula,2025-06-09,1,1378.64
-TRK_00345,Instagram_influencer,Gritzo_INF_032_2025-07-17,INF_032,USER_57918,Gritzo,Growth Formula,2025-07-20,1,1720.42
-TRK_00346,Instagram_influencer,HKVitals_INF_032_2025-07-17,INF_032,USER_83499,HKVitals,Vitamin D,2025-07-22,1,1195.22
-TRK_00347,Instagram_influencer,HKVitals_INF_032_2025-05-05,INF_032,USER_26083,HKVitals,Omega-3,2025-05-14,1,1343.28
-TRK_00348,LinkedIn_influencer,HKVitals_INF_033_2025-07-04,INF_033,USER_21443,HKVitals,Multivitamin,2025-07-05,1,1104.82
-TRK_00349,LinkedIn_influencer,MuscleBlaze_INF_033_2025-07-04,INF_033,USER_31596,MuscleBlaze,Pre-Workout,2025-07-06,1,1784.93
-TRK_00350,LinkedIn_influencer,Gritzo_INF_033_2025-07-04,INF_033,USER_78247,Gritzo,Teen Nutrition,2025-07-07,1,1500.26
-TRK_00351,LinkedIn_influencer,HKVitals_INF_033_2025-07-04,INF_033,USER_65067,HKVitals,Biotin,2025-07-09,1,1908.06
-TRK_00352,LinkedIn_influencer,MuscleBlaze_INF_033_2025-06-27,INF_033,USER_54024,MuscleBlaze,BCAA,2025-06-28,1,1809.01
-TRK_00353,LinkedIn_influencer,HKVitals_INF_033_2025-06-27,INF_033,USER_79489,HKVitals,Omega-3,2025-06-29,1,1429.27
-TRK_00354,LinkedIn_influencer,MuscleBlaze_INF_033_2025-06-27,INF_033,USER_73470,MuscleBlaze,Pre-Workout,2025-07-02,1,957.79
-TRK_00355,LinkedIn_influencer,HKVitals_INF_033_2025-07-20,INF_033,USER_80165,HKVitals,Vitamin D,2025-07-21,1,1042.74
-TRK_00356,LinkedIn_influencer,MuscleBlaze_INF_033_2025-07-20,INF_033,USER_51500,MuscleBlaze,BCAA,2025-07-22,1,917.39
-TRK_00357,Instagram_influencer,HKVitals_INF_034_2025-07-04,INF_034,USER_31311,HKVitals,Vitamin D,2025-07-05,1,879.87
-TRK_00358,Instagram_influencer,MuscleBlaze_INF_034_2025-07-04,INF_034,USER_29055,MuscleBlaze,Whey Protein,2025-07-06,1,2106.6
-TRK_00359,Instagram_influencer,Gritzo_INF_034_2025-07-04,INF_034,USER_47988,Gritzo,Growth Formula,2025-07-09,1,1512.22
-TRK_00360,Instagram_influencer,Gritzo_INF_034_2025-05-02,INF_034,USER_82215,Gritzo,DHA Supplement,2025-05-03,1,1299.2
-TRK_00361,Instagram_influencer,MuscleBlaze_INF_034_2025-05-02,INF_034,USER_56844,MuscleBlaze,Mass Gainer,2025-05-04,1,1454.84
-TRK_00362,Instagram_influencer,MuscleBlaze_INF_034_2025-05-02,INF_034,USER_39116,MuscleBlaze,Creatine,2025-05-05,1,1595.77
-TRK_00363,Instagram_influencer,MuscleBlaze_INF_034_2025-05-02,INF_034,USER_21452,MuscleBlaze,Creatine,2025-05-08,1,1883.77
-TRK_00364,Instagram_influencer,HKVitals_INF_034_2025-06-08,INF_034,USER_97394,HKVitals,Biotin,2025-06-09,1,1661.43
-TRK_00365,Instagram_influencer,MuscleBlaze_INF_034_2025-06-08,INF_034,USER_47309,MuscleBlaze,Mass Gainer,2025-06-10,1,1211.93
-TRK_00366,Instagram_influencer,HKVitals_INF_034_2025-06-08,INF_034,USER_68224,HKVitals,Immunity Booster,2025-06-11,1,1696.64
-TRK_00367,Instagram_influencer,Gritzo_INF_034_2025-06-08,INF_034,USER_86962,Gritzo,DHA Supplement,2025-06-15,1,1207.52
-TRK_00368,YouTube_influencer,Gritzo_INF_035_2025-05-10,INF_035,USER_45825,Gritzo,DHA Supplement,2025-05-12,1,577.79
-TRK_00369,YouTube_influencer,Gritzo_INF_035_2025-05-10,INF_035,USER_27947,Gritzo,DHA Supplement,2025-05-13,1,1272.03
-TRK_00370,YouTube_influencer,HKVitals_INF_035_2025-05-10,INF_035,USER_49582,HKVitals,Omega-3,2025-05-14,1,1330.55
-TRK_00371,YouTube_influencer,MuscleBlaze_INF_035_2025-05-10,INF_035,USER_93435,MuscleBlaze,BCAA,2025-05-19,1,1216.93
-TRK_00372,YouTube_influencer,HKVitals_INF_035_2025-06-29,INF_035,USER_74625,HKVitals,Vitamin D,2025-06-30,1,556.42
-TRK_00373,YouTube_influencer,Gritzo_INF_035_2025-06-29,INF_035,USER_43804,Gritzo,Growth Formula,2025-07-02,1,1516.92
-TRK_00374,YouTube_influencer,Gritzo_INF_035_2025-06-25,INF_035,USER_17669,Gritzo,Kids Protein,2025-06-26,1,2581.28
-TRK_00375,YouTube_influencer,HKVitals_INF_035_2025-06-25,INF_035,USER_57338,HKVitals,Vitamin D,2025-06-27,1,780.72
-TRK_00376,YouTube_influencer,HKVitals_INF_035_2025-05-24,INF_035,USER_35403,HKVitals,Biotin,2025-05-25,1,1434.14
-TRK_00377,YouTube_influencer,MuscleBlaze_INF_035_2025-05-24,INF_035,USER_51446,MuscleBlaze,Creatine,2025-05-27,1,1718.04
-TRK_00378,YouTube_influencer,Gritzo_INF_035_2025-06-30,INF_035,USER_77917,Gritzo,Growth Formula,2025-07-01,1,1613.79
-TRK_00379,YouTube_influencer,HKVitals_INF_035_2025-06-30,INF_035,USER_23424,HKVitals,Immunity Booster,2025-07-02,1,1307.65
-TRK_00380,YouTube_influencer,Gritzo_INF_035_2025-06-30,INF_035,USER_83224,Gritzo,Teen Nutrition,2025-07-03,1,1904.0
-TRK_00381,YouTube_influencer,HKVitals_INF_035_2025-07-24,INF_035,USER_88335,HKVitals,Omega-3,2025-07-25,1,955.59
-TRK_00382,YouTube_influencer,MuscleBlaze_INF_035_2025-04-30,INF_035,USER_28659,MuscleBlaze,Whey Protein,2025-05-01,1,1964.38
-TRK_00383,YouTube_influencer,MuscleBlaze_INF_035_2025-04-30,INF_035,USER_24643,MuscleBlaze,BCAA,2025-05-03,1,1947.59
-TRK_00384,Instagram_influencer,MuscleBlaze_INF_036_2025-07-03,INF_036,USER_87748,MuscleBlaze,Whey Protein,2025-07-04,1,1598.7
-TRK_00385,Instagram_influencer,MuscleBlaze_INF_036_2025-07-03,INF_036,USER_11346,MuscleBlaze,Pre-Workout,2025-07-05,1,818.14
-TRK_00386,Instagram_influencer,MuscleBlaze_INF_036_2025-07-03,INF_036,USER_29078,MuscleBlaze,BCAA,2025-07-09,1,1453.64
-TRK_00387,Instagram_influencer,Gritzo_INF_036_2025-05-04,INF_036,USER_72221,Gritzo,Kids Protein,2025-05-05,1,3129.08
-TRK_00388,Instagram_influencer,Gritzo_INF_036_2025-05-04,INF_036,USER_33704,Gritzo,Teen Nutrition,2025-05-06,1,1449.14
-TRK_00389,LinkedIn_influencer,MuscleBlaze_INF_037_2025-07-06,INF_037,USER_50895,MuscleBlaze,Mass Gainer,2025-07-07,1,1163.23
-TRK_00390,LinkedIn_influencer,HKVitals_INF_037_2025-06-14,INF_037,USER_72347,HKVitals,Immunity Booster,2025-06-15,1,938.18
-TRK_00391,LinkedIn_influencer,MuscleBlaze_INF_037_2025-06-14,INF_037,USER_78506,MuscleBlaze,Mass Gainer,2025-06-17,1,1573.22
-TRK_00392,Instagram_influencer,MuscleBlaze_INF_038_2025-07-07,INF_038,USER_62990,MuscleBlaze,Pre-Workout,2025-07-08,1,1111.9
-TRK_00393,Instagram_influencer,HKVitals_INF_038_2025-07-07,INF_038,USER_86273,HKVitals,Immunity Booster,2025-07-09,1,1182.65
-TRK_00394,Instagram_influencer,HKVitals_INF_038_2025-05-31,INF_038,USER_63011,HKVitals,Omega-3,2025-06-01,1,1399.28
-TRK_00395,Instagram_influencer,HKVitals_INF_038_2025-05-31,INF_038,USER_40254,HKVitals,Multivitamin,2025-06-04,1,944.61
-TRK_00396,Instagram_influencer,MuscleBlaze_INF_038_2025-05-31,INF_038,USER_13506,MuscleBlaze,Whey Protein,2025-06-06,1,2744.44
-TRK_00397,Instagram_influencer,HKVitals_INF_038_2025-05-16,INF_038,USER_76164,HKVitals,Vitamin D,2025-05-17,1,793.23
-TRK_00398,Instagram_influencer,HKVitals_INF_038_2025-05-16,INF_038,USER_14141,HKVitals,Biotin,2025-05-18,1,1587.73
-TRK_00399,Instagram_influencer,HKVitals_INF_038_2025-05-16,INF_038,USER_14716,HKVitals,Omega-3,2025-05-21,1,1802.5
-TRK_00400,Instagram_influencer,Gritzo_INF_038_2025-05-16,INF_038,USER_66450,Gritzo,Growth Formula,2025-05-22,1,1736.59
-TRK_00401,Instagram_influencer,Gritzo_INF_038_2025-05-16,INF_038,USER_98476,Gritzo,DHA Supplement,2025-05-23,1,910.31
-TRK_00402,Instagram_influencer,MuscleBlaze_INF_038_2025-06-24,INF_038,USER_55727,MuscleBlaze,Creatine,2025-06-26,1,911.7
-TRK_00403,Instagram_influencer,MuscleBlaze_INF_038_2025-06-24,INF_038,USER_21133,MuscleBlaze,BCAA,2025-07-05,1,1040.9
-TRK_00404,LinkedIn_influencer,HKVitals_INF_039_2025-07-01,INF_039,USER_12914,HKVitals,Omega-3,2025-07-02,1,819.49
-TRK_00405,LinkedIn_influencer,HKVitals_INF_039_2025-07-01,INF_039,USER_23114,HKVitals,Omega-3,2025-07-04,1,1578.75
-TRK_00406,LinkedIn_influencer,HKVitals_INF_039_2025-07-01,INF_039,USER_31840,HKVitals,Biotin,2025-07-06,1,1833.13
-TRK_00407,LinkedIn_influencer,HKVitals_INF_039_2025-05-28,INF_039,USER_39607,HKVitals,Multivitamin,2025-05-30,1,1173.79
-TRK_00408,LinkedIn_influencer,HKVitals_INF_039_2025-05-19,INF_039,USER_81770,HKVitals,Omega-3,2025-05-20,1,1535.46
-TRK_00409,LinkedIn_influencer,MuscleBlaze_INF_039_2025-05-19,INF_039,USER_37912,MuscleBlaze,Creatine,2025-05-21,1,1863.46
-TRK_00410,LinkedIn_influencer,HKVitals_INF_039_2025-04-28,INF_039,USER_36299,HKVitals,Biotin,2025-04-29,1,1524.77
-TRK_00411,LinkedIn_influencer,MuscleBlaze_INF_039_2025-04-28,INF_039,USER_49357,MuscleBlaze,BCAA,2025-04-30,1,1016.91
-TRK_00412,LinkedIn_influencer,Gritzo_INF_040_2025-06-28,INF_040,USER_36475,Gritzo,DHA Supplement,2025-06-29,1,996.82
-TRK_00413,LinkedIn_influencer,MuscleBlaze_INF_040_2025-06-28,INF_040,USER_96333,MuscleBlaze,Whey Protein,2025-06-30,1,2002.19
-TRK_00414,LinkedIn_influencer,Gritzo_INF_040_2025-06-28,INF_040,USER_21000,Gritzo,DHA Supplement,2025-07-03,1,1168.2
-TRK_00415,LinkedIn_influencer,MuscleBlaze_INF_040_2025-07-18,INF_040,USER_28423,MuscleBlaze,Mass Gainer,2025-07-19,1,2018.43
-TRK_00416,LinkedIn_influencer,Gritzo_INF_040_2025-07-18,INF_040,USER_78846,Gritzo,Kids Protein,2025-07-20,1,2433.15
-TRK_00417,LinkedIn_influencer,MuscleBlaze_INF_040_2025-07-18,INF_040,USER_51079,MuscleBlaze,BCAA,2025-07-21,1,1602.82
-TRK_00418,LinkedIn_influencer,Gritzo_INF_040_2025-07-18,INF_040,USER_65426,Gritzo,DHA Supplement,2025-07-22,1,1369.56
-TRK_00419,LinkedIn_influencer,MuscleBlaze_INF_040_2025-07-18,INF_040,USER_63526,MuscleBlaze,BCAA,2025-07-23,1,1009.27
-TRK_00420,LinkedIn_influencer,HKVitals_INF_040_2025-07-01,INF_040,USER_28993,HKVitals,Vitamin D,2025-07-02,1,1574.36
-TRK_00421,LinkedIn_influencer,Gritzo_INF_040_2025-07-01,INF_040,USER_89405,Gritzo,Growth Formula,2025-07-03,1,1614.6
-TRK_00422,LinkedIn_influencer,Gritzo_INF_040_2025-07-01,INF_040,USER_41414,Gritzo,Kids Protein,2025-07-04,1,2682.51
-TRK_00423,LinkedIn_influencer,HKVitals_INF_040_2025-07-01,INF_040,USER_99816,HKVitals,Omega-3,2025-07-05,1,1629.6
-TRK_00424,LinkedIn_influencer,MuscleBlaze_INF_040_2025-07-01,INF_040,USER_61508,MuscleBlaze,Mass Gainer,2025-07-06,1,1369.94
-TRK_00425,LinkedIn_influencer,MuscleBlaze_INF_040_2025-07-18,INF_040,USER_67520,MuscleBlaze,Pre-Workout,2025-07-19,1,1134.61
-TRK_00426,LinkedIn_influencer,HKVitals_INF_040_2025-05-11,INF_040,USER_53610,HKVitals,Immunity Booster,2025-05-12,1,1828.0
-TRK_00427,LinkedIn_influencer,MuscleBlaze_INF_040_2025-05-11,INF_040,USER_27837,MuscleBlaze,BCAA,2025-05-24,1,1646.76
-TRK_00428,LinkedIn_influencer,MuscleBlaze_INF_040_2025-05-11,INF_040,USER_30686,MuscleBlaze,Pre-Workout,2025-05-25,1,1078.17
-TRK_00429,LinkedIn_influencer,MuscleBlaze_INF_041_2025-07-05,INF_041,USER_21662,MuscleBlaze,Creatine,2025-07-07,1,1616.45
-TRK_00430,LinkedIn_influencer,Gritzo_INF_041_2025-07-05,INF_041,USER_88694,Gritzo,Teen Nutrition,2025-07-09,1,880.03
-TRK_00431,LinkedIn_influencer,MuscleBlaze_INF_041_2025-07-05,INF_041,USER_11850,MuscleBlaze,Pre-Workout,2025-07-10,1,1017.65
-TRK_00432,LinkedIn_influencer,HKVitals_INF_041_2025-06-11,INF_041,USER_38254,HKVitals,Vitamin D,2025-06-12,1,876.66
-TRK_00433,LinkedIn_influencer,Gritzo_INF_041_2025-06-11,INF_041,USER_29129,Gritzo,Teen Nutrition,2025-06-14,1,1278.18
-TRK_00434,LinkedIn_influencer,HKVitals_INF_041_2025-06-11,INF_041,USER_58449,HKVitals,Vitamin D,2025-06-15,1,1208.73
-TRK_00435,LinkedIn_influencer,MuscleBlaze_INF_041_2025-05-23,INF_041,USER_37815,MuscleBlaze,Pre-Workout,2025-05-24,1,1928.93
-TRK_00436,LinkedIn_influencer,MuscleBlaze_INF_041_2025-05-25,INF_041,USER_40781,MuscleBlaze,Whey Protein,2025-05-26,1,2126.29
-TRK_00437,LinkedIn_influencer,HKVitals_INF_041_2025-05-25,INF_041,USER_88411,HKVitals,Biotin,2025-05-27,1,2107.27
-TRK_00438,LinkedIn_influencer,Gritzo_INF_041_2025-05-25,INF_041,USER_58614,Gritzo,DHA Supplement,2025-05-30,1,785.61
-TRK_00439,LinkedIn_influencer,Gritzo_INF_041_2025-05-25,INF_041,USER_76027,Gritzo,Kids Protein,2025-05-31,1,2257.07
-TRK_00440,LinkedIn_influencer,Gritzo_INF_041_2025-05-25,INF_041,USER_15788,Gritzo,DHA Supplement,2025-06-04,1,592.61
-TRK_00441,LinkedIn_influencer,HKVitals_INF_041_2025-06-21,INF_041,USER_44571,HKVitals,Omega-3,2025-06-22,1,1794.16
-TRK_00442,LinkedIn_influencer,HKVitals_INF_041_2025-06-21,INF_041,USER_29826,HKVitals,Vitamin D,2025-06-23,1,896.21
-TRK_00443,Instagram_influencer,HKVitals_INF_042_2025-07-14,INF_042,USER_29405,HKVitals,Biotin,2025-07-15,1,1380.3
-TRK_00444,Instagram_influencer,MuscleBlaze_INF_042_2025-07-14,INF_042,USER_32058,MuscleBlaze,BCAA,2025-07-16,1,1724.17
-TRK_00445,Instagram_influencer,MuscleBlaze_INF_042_2025-05-01,INF_042,USER_53077,MuscleBlaze,BCAA,2025-05-02,1,1782.83
-TRK_00446,Instagram_influencer,Gritzo_INF_042_2025-05-01,INF_042,USER_23902,Gritzo,Kids Protein,2025-05-03,1,2129.04
-TRK_00447,Instagram_influencer,Gritzo_INF_042_2025-07-26,INF_042,USER_15747,Gritzo,Growth Formula,2025-07-27,1,1363.5
-TRK_00448,Instagram_influencer,Gritzo_INF_042_2025-07-26,INF_042,USER_94363,Gritzo,Teen Nutrition,2025-07-30,1,958.53
-TRK_00449,Instagram_influencer,MuscleBlaze_INF_042_2025-07-26,INF_042,USER_22130,MuscleBlaze,Whey Protein,2025-07-31,1,2368.21
-TRK_00450,Instagram_influencer,HKVitals_INF_042_2025-07-26,INF_042,USER_60921,HKVitals,Multivitamin,2025-08-02,1,776.49
-TRK_00451,Instagram_influencer,HKVitals_INF_042_2025-07-14,INF_042,USER_74175,HKVitals,Multivitamin,2025-07-16,1,1803.01
-TRK_00452,Instagram_influencer,HKVitals_INF_042_2025-07-14,INF_042,USER_21825,HKVitals,Immunity Booster,2025-07-17,1,1144.7
-TRK_00453,Instagram_influencer,MuscleBlaze_INF_042_2025-05-31,INF_042,USER_98662,MuscleBlaze,Whey Protein,2025-06-01,1,2484.88
-TRK_00454,Instagram_influencer,Gritzo_INF_042_2025-05-31,INF_042,USER_94833,Gritzo,Teen Nutrition,2025-06-02,1,1927.26
-TRK_00455,Instagram_influencer,HKVitals_INF_042_2025-05-31,INF_042,USER_29478,HKVitals,Multivitamin,2025-06-04,1,1880.19
-TRK_00456,LinkedIn_influencer,HKVitals_INF_043_2025-04-28,INF_043,USER_84511,HKVitals,Immunity Booster,2025-04-29,1,942.77
-TRK_00457,LinkedIn_influencer,Gritzo_INF_043_2025-04-28,INF_043,USER_96714,Gritzo,Kids Protein,2025-05-01,1,2396.31
-TRK_00458,LinkedIn_influencer,HKVitals_INF_043_2025-04-28,INF_043,USER_97852,HKVitals,Omega-3,2025-05-05,1,1229.48
-TRK_00459,LinkedIn_influencer,MuscleBlaze_INF_043_2025-06-18,INF_043,USER_98265,MuscleBlaze,Whey Protein,2025-06-19,1,2675.08
-TRK_00460,LinkedIn_influencer,Gritzo_INF_043_2025-06-18,INF_043,USER_32509,Gritzo,Kids Protein,2025-06-20,1,1393.1
-TRK_00461,LinkedIn_influencer,MuscleBlaze_INF_043_2025-07-08,INF_043,USER_12082,MuscleBlaze,BCAA,2025-07-09,1,753.26
-TRK_00462,LinkedIn_influencer,MuscleBlaze_INF_043_2025-07-08,INF_043,USER_41690,MuscleBlaze,BCAA,2025-07-11,1,1279.59
-TRK_00463,LinkedIn_influencer,HKVitals_INF_043_2025-07-08,INF_043,USER_25264,HKVitals,Immunity Booster,2025-07-15,1,962.52
-TRK_00464,Instagram_influencer,MuscleBlaze_INF_044_2025-05-11,INF_044,USER_85846,MuscleBlaze,Mass Gainer,2025-05-12,1,2113.11
-TRK_00465,Instagram_influencer,MuscleBlaze_INF_044_2025-06-20,INF_044,USER_82516,MuscleBlaze,Creatine,2025-06-23,1,835.4
-TRK_00466,Instagram_influencer,Gritzo_INF_044_2025-06-20,INF_044,USER_91618,Gritzo,DHA Supplement,2025-06-24,1,1282.72
-TRK_00467,Instagram_influencer,HKVitals_INF_044_2025-06-20,INF_044,USER_76536,HKVitals,Vitamin D,2025-06-28,1,957.24
-TRK_00468,Instagram_influencer,HKVitals_INF_044_2025-05-06,INF_044,USER_61166,HKVitals,Vitamin D,2025-05-07,1,1444.86
-TRK_00469,Instagram_influencer,HKVitals_INF_044_2025-06-30,INF_044,USER_12376,HKVitals,Omega-3,2025-07-01,1,1093.96
-TRK_00470,Instagram_influencer,HKVitals_INF_044_2025-06-30,INF_044,USER_75991,HKVitals,Omega-3,2025-07-02,1,1507.42
-TRK_00471,Instagram_influencer,HKVitals_INF_045_2025-07-25,INF_045,USER_16117,HKVitals,Omega-3,2025-07-26,1,2105.92
-TRK_00472,Instagram_influencer,Gritzo_INF_045_2025-07-23,INF_045,USER_67386,Gritzo,Kids Protein,2025-07-24,1,2778.01
-TRK_00473,Instagram_influencer,Gritzo_INF_045_2025-07-23,INF_045,USER_25474,Gritzo,Kids Protein,2025-08-01,1,2110.4
-TRK_00474,Instagram_influencer,HKVitals_INF_045_2025-07-05,INF_045,USER_36462,HKVitals,Omega-3,2025-07-06,1,1648.55
-TRK_00475,Instagram_influencer,HKVitals_INF_045_2025-07-05,INF_045,USER_54737,HKVitals,Multivitamin,2025-07-07,1,1162.04
-TRK_00476,Instagram_influencer,Gritzo_INF_045_2025-06-03,INF_045,USER_65275,Gritzo,Teen Nutrition,2025-06-04,1,1031.72
-TRK_00477,Instagram_influencer,HKVitals_INF_045_2025-06-03,INF_045,USER_77653,HKVitals,Immunity Booster,2025-06-06,1,2053.02
-TRK_00478,Instagram_influencer,MuscleBlaze_INF_045_2025-06-03,INF_045,USER_19120,MuscleBlaze,Whey Protein,2025-06-09,1,2585.38
-TRK_00479,Instagram_influencer,HKVitals_INF_045_2025-06-03,INF_045,USER_18056,HKVitals,Immunity Booster,2025-06-10,1,1845.52
-TRK_00480,Instagram_influencer,Gritzo_INF_045_2025-07-15,INF_045,USER_82562,Gritzo,Growth Formula,2025-07-17,1,1403.71
-TRK_00481,YouTube_influencer,HKVitals_INF_046_2025-06-25,INF_046,USER_62944,HKVitals,Biotin,2025-06-27,1,1424.25
-TRK_00482,YouTube_influencer,MuscleBlaze_INF_046_2025-06-25,INF_046,USER_67952,MuscleBlaze,Creatine,2025-06-28,1,1585.85
-TRK_00483,YouTube_influencer,Gritzo_INF_046_2025-05-29,INF_046,USER_50927,Gritzo,Growth Formula,2025-05-31,1,1058.95
-TRK_00484,YouTube_influencer,MuscleBlaze_INF_046_2025-05-29,INF_046,USER_49838,MuscleBlaze,Creatine,2025-06-03,1,1432.84
-TRK_00485,YouTube_influencer,MuscleBlaze_INF_046_2025-05-29,INF_046,USER_26228,MuscleBlaze,Pre-Workout,2025-06-06,1,1113.38
-TRK_00486,YouTube_influencer,Gritzo_INF_046_2025-05-29,INF_046,USER_10683,Gritzo,Kids Protein,2025-06-07,1,2204.59
-TRK_00487,YouTube_influencer,Gritzo_INF_046_2025-07-17,INF_046,USER_85073,Gritzo,Teen Nutrition,2025-07-18,1,1167.81
-TRK_00488,YouTube_influencer,HKVitals_INF_046_2025-07-17,INF_046,USER_57352,HKVitals,Biotin,2025-07-22,1,1595.62
-TRK_00489,YouTube_influencer,HKVitals_INF_046_2025-07-17,INF_046,USER_27047,HKVitals,Immunity Booster,2025-07-24,1,819.68
-TRK_00490,LinkedIn_influencer,HKVitals_INF_047_2025-07-11,INF_047,USER_69993,HKVitals,Vitamin D,2025-07-12,1,596.29
-TRK_00491,LinkedIn_influencer,Gritzo_INF_047_2025-07-11,INF_047,USER_14273,Gritzo,Kids Protein,2025-07-13,1,2519.05
-TRK_00492,LinkedIn_influencer,MuscleBlaze_INF_047_2025-05-05,INF_047,USER_16376,MuscleBlaze,BCAA,2025-05-06,1,987.97
-TRK_00493,LinkedIn_influencer,HKVitals_INF_047_2025-05-05,INF_047,USER_10273,HKVitals,Vitamin D,2025-05-08,1,715.82
-TRK_00494,LinkedIn_influencer,HKVitals_INF_047_2025-05-05,INF_047,USER_85112,HKVitals,Multivitamin,2025-05-09,1,1814.11
-TRK_00495,LinkedIn_influencer,HKVitals_INF_047_2025-05-05,INF_047,USER_89391,HKVitals,Omega-3,2025-05-10,1,1729.01
-TRK_00496,Instagram_influencer,HKVitals_INF_048_2025-06-12,INF_048,USER_91889,HKVitals,Vitamin D,2025-06-13,1,1318.58
-TRK_00497,Instagram_influencer,MuscleBlaze_INF_048_2025-06-12,INF_048,USER_97876,MuscleBlaze,Mass Gainer,2025-06-15,1,1097.18
-TRK_00498,Instagram_influencer,Gritzo_INF_048_2025-05-03,INF_048,USER_12446,Gritzo,Teen Nutrition,2025-05-04,1,1701.57
-TRK_00499,Instagram_influencer,Gritzo_INF_048_2025-05-03,INF_048,USER_36975,Gritzo,Teen Nutrition,2025-05-05,1,1866.87
-TRK_00500,Instagram_influencer,Gritzo_INF_048_2025-05-03,INF_048,USER_51999,Gritzo,DHA Supplement,2025-05-06,1,588.57
-TRK_00501,Instagram_influencer,MuscleBlaze_INF_048_2025-05-03,INF_048,USER_79193,MuscleBlaze,Pre-Workout,2025-05-08,1,1301.89
-TRK_00502,Instagram_influencer,MuscleBlaze_INF_048_2025-05-03,INF_048,USER_43496,MuscleBlaze,Creatine,2025-05-11,1,930.47
-TRK_00503,Instagram_influencer,Gritzo_INF_048_2025-05-14,INF_048,USER_49062,Gritzo,Growth Formula,2025-05-15,1,1061.17
-TRK_00504,Instagram_influencer,HKVitals_INF_048_2025-05-14,INF_048,USER_59219,HKVitals,Vitamin D,2025-05-16,1,880.73
-TRK_00505,Instagram_influencer,MuscleBlaze_INF_048_2025-05-14,INF_048,USER_76115,MuscleBlaze,Creatine,2025-05-19,1,1501.12
-TRK_00506,Instagram_influencer,MuscleBlaze_INF_048_2025-05-14,INF_048,USER_73461,MuscleBlaze,Pre-Workout,2025-05-21,1,1332.55
-TRK_00507,Instagram_influencer,Gritzo_INF_048_2025-05-14,INF_048,USER_82623,Gritzo,Teen Nutrition,2025-05-22,1,1713.9
-TRK_00508,Instagram_influencer,HKVitals_INF_048_2025-07-23,INF_048,USER_28660,HKVitals,Multivitamin,2025-07-24,1,1815.69
-TRK_00509,Instagram_influencer,MuscleBlaze_INF_048_2025-07-23,INF_048,USER_82764,MuscleBlaze,BCAA,2025-07-25,1,1423.01
-TRK_00510,Instagram_influencer,MuscleBlaze_INF_048_2025-07-23,INF_048,USER_95597,MuscleBlaze,Mass Gainer,2025-07-26,1,2000.5
-TRK_00511,Instagram_influencer,HKVitals_INF_048_2025-07-23,INF_048,USER_59827,HKVitals,Omega-3,2025-07-28,1,1620.47
-TRK_00512,Instagram_influencer,Gritzo_INF_048_2025-05-24,INF_048,USER_83804,Gritzo,Growth Formula,2025-05-25,1,895.46
-TRK_00513,Instagram_influencer,MuscleBlaze_INF_048_2025-05-24,INF_048,USER_82938,MuscleBlaze,Mass Gainer,2025-05-26,1,1746.39
-TRK_00514,Instagram_influencer,Gritzo_INF_048_2025-05-24,INF_048,USER_93252,Gritzo,Growth Formula,2025-05-29,1,2026.47
-TRK_00515,Instagram_influencer,Gritzo_INF_048_2025-05-24,INF_048,USER_72459,Gritzo,Teen Nutrition,2025-06-07,1,1418.8
-TRK_00516,Instagram_influencer,Gritzo_INF_049_2025-07-09,INF_049,USER_20161,Gritzo,Kids Protein,2025-07-10,1,2760.9
-TRK_00517,Instagram_influencer,Gritzo_INF_049_2025-07-09,INF_049,USER_59332,Gritzo,DHA Supplement,2025-07-11,1,1137.78
-TRK_00518,Instagram_influencer,MuscleBlaze_INF_049_2025-07-09,INF_049,USER_35295,MuscleBlaze,Whey Protein,2025-07-13,1,1643.44
-TRK_00519,Instagram_influencer,MuscleBlaze_INF_049_2025-07-09,INF_049,USER_35101,MuscleBlaze,Pre-Workout,2025-07-15,1,1684.31
-TRK_00520,Instagram_influencer,Gritzo_INF_049_2025-07-09,INF_049,USER_74724,Gritzo,Growth Formula,2025-07-16,1,1671.38
-TRK_00521,Instagram_influencer,MuscleBlaze_INF_049_2025-06-19,INF_049,USER_75578,MuscleBlaze,Mass Gainer,2025-06-20,1,891.58
-TRK_00522,Instagram_influencer,Gritzo_INF_049_2025-06-19,INF_049,USER_99441,Gritzo,Teen Nutrition,2025-06-21,1,1612.72
-TRK_00523,Instagram_influencer,Gritzo_INF_049_2025-06-19,INF_049,USER_84698,Gritzo,Teen Nutrition,2025-06-23,1,1568.85
-TRK_00524,Instagram_influencer,Gritzo_INF_049_2025-06-19,INF_049,USER_10256,Gritzo,Growth Formula,2025-06-29,1,1740.7
-TRK_00525,Instagram_influencer,Gritzo_INF_049_2025-05-15,INF_049,USER_63330,Gritzo,Kids Protein,2025-05-16,1,2682.35
-TRK_00526,Instagram_influencer,Gritzo_INF_049_2025-05-15,INF_049,USER_15697,Gritzo,DHA Supplement,2025-05-17,1,999.01
-TRK_00527,Instagram_influencer,HKVitals_INF_049_2025-05-15,INF_049,USER_61361,HKVitals,Immunity Booster,2025-05-19,1,1386.01
-TRK_00528,Instagram_influencer,MuscleBlaze_INF_049_2025-05-15,INF_049,USER_39573,MuscleBlaze,Creatine,2025-05-20,1,1942.68
-TRK_00529,Instagram_influencer,MuscleBlaze_INF_049_2025-05-15,INF_049,USER_92050,MuscleBlaze,BCAA,2025-05-23,1,959.64
-TRK_00530,Instagram_influencer,HKVitals_INF_049_2025-05-15,INF_049,USER_53817,HKVitals,Multivitamin,2025-05-25,1,1549.2
-TRK_00531,Instagram_influencer,HKVitals_INF_049_2025-05-02,INF_049,USER_88638,HKVitals,Biotin,2025-05-03,1,1908.44
-TRK_00532,Instagram_influencer,MuscleBlaze_INF_049_2025-05-02,INF_049,USER_17954,MuscleBlaze,Mass Gainer,2025-05-04,1,1370.82
-TRK_00533,Instagram_influencer,Gritzo_INF_049_2025-05-02,INF_049,USER_67923,Gritzo,Kids Protein,2025-05-06,1,2439.73
-TRK_00534,Instagram_influencer,Gritzo_INF_049_2025-05-02,INF_049,USER_83303,Gritzo,DHA Supplement,2025-05-07,1,585.88
-TRK_00535,Instagram_influencer,HKVitals_INF_049_2025-05-02,INF_049,USER_40554,HKVitals,Immunity Booster,2025-05-08,1,961.11
-TRK_00536,Instagram_influencer,HKVitals_INF_049_2025-04-29,INF_049,USER_23459,HKVitals,Biotin,2025-04-30,1,1120.41
-TRK_00537,Instagram_influencer,Gritzo_INF_049_2025-04-29,INF_049,USER_85132,Gritzo,Kids Protein,2025-05-01,1,2552.18
-TRK_00538,Instagram_influencer,Gritzo_INF_049_2025-04-29,INF_049,USER_91376,Gritzo,Growth Formula,2025-05-02,1,1221.91
-TRK_00539,Instagram_influencer,MuscleBlaze_INF_049_2025-04-29,INF_049,USER_77256,MuscleBlaze,Whey Protein,2025-05-04,1,1720.12
-TRK_00540,YouTube_influencer,Gritzo_INF_050_2025-05-26,INF_050,USER_36263,Gritzo,Kids Protein,2025-05-27,1,2003.15
-TRK_00541,YouTube_influencer,HKVitals_INF_050_2025-07-06,INF_050,USER_71263,HKVitals,Vitamin D,2025-07-07,1,1213.36
-TRK_00542,YouTube_influencer,HKVitals_INF_050_2025-07-06,INF_050,USER_49273,HKVitals,Biotin,2025-07-08,1,1430.69
-TRK_00543,YouTube_influencer,MuscleBlaze_INF_050_2025-07-06,INF_050,USER_15530,MuscleBlaze,Whey Protein,2025-07-09,1,2307.62
-TRK_00544,YouTube_influencer,MuscleBlaze_INF_050_2025-05-18,INF_050,USER_53452,MuscleBlaze,Mass Gainer,2025-05-19,1,1467.87
-TRK_00545,YouTube_influencer,HKVitals_INF_050_2025-05-18,INF_050,USER_11296,HKVitals,Vitamin D,2025-05-21,1,1195.26
-TRK_00546,YouTube_influencer,MuscleBlaze_INF_050_2025-05-18,INF_050,USER_35480,MuscleBlaze,Creatine,2025-05-22,1,898.93
-TRK_00547,YouTube_influencer,MuscleBlaze_INF_050_2025-06-19,INF_050,USER_12751,MuscleBlaze,BCAA,2025-06-20,1,1960.23
-TRK_00548,YouTube_influencer,Gritzo_INF_050_2025-06-19,INF_050,USER_69795,Gritzo,Kids Protein,2025-06-22,1,1891.23
-TRK_00549,YouTube_influencer,HKVitals_INF_050_2025-06-19,INF_050,USER_91684,HKVitals,Vitamin D,2025-06-23,1,1578.68
+TRK_00262,LinkedIn_influencer,Gritzo_INF_024_2025-05-18,INF_024,USER_47128,Gritzo,Growth Formula,2025-05-19,1,1392.42
+TRK_00263,LinkedIn_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_80854,MuscleBlaze,Whey Protein,2025-05-20,1,2121.38
+TRK_00264,LinkedIn_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_23884,MuscleBlaze,Whey Protein,2025-05-21,1,2283.54
+TRK_00265,LinkedIn_influencer,MuscleBlaze_INF_024_2025-05-18,INF_024,USER_87693,MuscleBlaze,Mass Gainer,2025-05-22,1,1322.3
+TRK_00266,LinkedIn_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_71377,HKVitals,Biotin,2025-06-27,1,1018.11
+TRK_00267,LinkedIn_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_28837,HKVitals,Immunity Booster,2025-06-28,1,1486.78
+TRK_00268,LinkedIn_influencer,HKVitals_INF_025_2025-06-26,INF_025,USER_32387,HKVitals,Multivitamin,2025-07-08,1,1212.26
+TRK_00269,LinkedIn_influencer,Gritzo_INF_025_2025-07-11,INF_025,USER_62535,Gritzo,Kids Protein,2025-07-12,1,2706.25
+TRK_00270,LinkedIn_influencer,MuscleBlaze_INF_025_2025-07-11,INF_025,USER_73225,MuscleBlaze,Creatine,2025-07-13,1,1017.93
+TRK_00271,LinkedIn_influencer,HKVitals_INF_025_2025-05-23,INF_025,USER_40953,HKVitals,Biotin,2025-05-24,1,1760.33
+TRK_00272,LinkedIn_influencer,Gritzo_INF_025_2025-05-23,INF_025,USER_73783,Gritzo,Kids Protein,2025-05-25,1,2719.63
+TRK_00273,LinkedIn_influencer,Gritzo_INF_025_2025-05-23,INF_025,USER_68355,Gritzo,DHA Supplement,2025-05-26,1,758.96
+TRK_00274,LinkedIn_influencer,HKVitals_INF_025_2025-05-23,INF_025,USER_88172,HKVitals,Multivitamin,2025-05-27,1,1574.23
+TRK_00275,LinkedIn_influencer,MuscleBlaze_INF_025_2025-05-23,INF_025,USER_10024,MuscleBlaze,Creatine,2025-06-01,1,1935.2
+TRK_00276,LinkedIn_influencer,HKVitals_INF_025_2025-05-10,INF_025,USER_99327,HKVitals,Biotin,2025-05-11,1,1402.61
+TRK_00277,LinkedIn_influencer,Gritzo_INF_025_2025-05-10,INF_025,USER_55123,Gritzo,Growth Formula,2025-05-13,1,2068.33
+TRK_00278,LinkedIn_influencer,Gritzo_INF_025_2025-07-21,INF_025,USER_57086,Gritzo,Kids Protein,2025-07-22,1,1519.29
+TRK_00279,LinkedIn_influencer,HKVitals_INF_026_2025-06-22,INF_026,USER_72242,HKVitals,Immunity Booster,2025-06-23,1,1501.4
+TRK_00280,LinkedIn_influencer,Gritzo_INF_026_2025-06-22,INF_026,USER_64687,Gritzo,DHA Supplement,2025-06-24,1,1305.79
+TRK_00281,LinkedIn_influencer,Gritzo_INF_026_2025-06-22,INF_026,USER_12058,Gritzo,Teen Nutrition,2025-06-25,1,878.81
+TRK_00282,LinkedIn_influencer,HKVitals_INF_026_2025-06-22,INF_026,USER_27985,HKVitals,Immunity Booster,2025-06-26,1,1826.47
+TRK_00283,LinkedIn_influencer,Gritzo_INF_027_2025-05-27,INF_027,USER_81587,Gritzo,Teen Nutrition,2025-05-28,1,1578.2
+TRK_00284,LinkedIn_influencer,MuscleBlaze_INF_027_2025-05-27,INF_027,USER_24832,MuscleBlaze,Whey Protein,2025-05-29,1,2448.61
+TRK_00285,LinkedIn_influencer,Gritzo_INF_027_2025-05-27,INF_027,USER_89963,Gritzo,Growth Formula,2025-06-01,1,1243.38
+TRK_00286,LinkedIn_influencer,HKVitals_INF_027_2025-05-27,INF_027,USER_85973,HKVitals,Multivitamin,2025-06-02,1,1633.6
+TRK_00287,LinkedIn_influencer,HKVitals_INF_027_2025-05-27,INF_027,USER_77195,HKVitals,Biotin,2025-06-04,1,1723.43
+TRK_00288,LinkedIn_influencer,MuscleBlaze_INF_027_2025-05-08,INF_027,USER_83886,MuscleBlaze,Creatine,2025-05-09,1,1776.45
+TRK_00289,LinkedIn_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_96025,Gritzo,DHA Supplement,2025-05-10,1,1093.85
+TRK_00290,LinkedIn_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_24621,Gritzo,Growth Formula,2025-06-07,1,1075.32
+TRK_00291,LinkedIn_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_32989,Gritzo,Teen Nutrition,2025-06-08,1,1549.55
+TRK_00292,LinkedIn_influencer,Gritzo_INF_027_2025-06-06,INF_027,USER_14337,Gritzo,Teen Nutrition,2025-06-09,1,1464.64
+TRK_00293,LinkedIn_influencer,MuscleBlaze_INF_027_2025-06-06,INF_027,USER_75004,MuscleBlaze,BCAA,2025-06-10,1,1612.11
+TRK_00294,LinkedIn_influencer,MuscleBlaze_INF_027_2025-05-07,INF_027,USER_94182,MuscleBlaze,Creatine,2025-05-08,1,1629.14
+TRK_00295,LinkedIn_influencer,MuscleBlaze_INF_027_2025-05-07,INF_027,USER_49500,MuscleBlaze,Whey Protein,2025-05-09,1,1715.93
+TRK_00296,LinkedIn_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_72205,Gritzo,Teen Nutrition,2025-05-10,1,1307.4
+TRK_00297,LinkedIn_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_68827,Gritzo,DHA Supplement,2025-05-11,1,555.6
+TRK_00298,LinkedIn_influencer,Gritzo_INF_027_2025-05-07,INF_027,USER_95467,Gritzo,Growth Formula,2025-05-16,1,1920.85
+TRK_00299,LinkedIn_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_35549,Gritzo,Teen Nutrition,2025-05-09,1,1711.01
+TRK_00300,LinkedIn_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_11110,Gritzo,Teen Nutrition,2025-05-10,1,1060.82
+TRK_00301,LinkedIn_influencer,MuscleBlaze_INF_027_2025-05-08,INF_027,USER_38759,MuscleBlaze,Creatine,2025-05-12,1,914.69
+TRK_00302,LinkedIn_influencer,Gritzo_INF_027_2025-05-08,INF_027,USER_38419,Gritzo,Kids Protein,2025-05-15,1,1615.17
+TRK_00303,LinkedIn_influencer,MuscleBlaze_INF_027_2025-04-28,INF_027,USER_96034,MuscleBlaze,Whey Protein,2025-04-29,1,2578.54
+TRK_00304,LinkedIn_influencer,MuscleBlaze_INF_027_2025-04-28,INF_027,USER_19924,MuscleBlaze,BCAA,2025-05-03,1,1096.71
+TRK_00305,LinkedIn_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_67747,MuscleBlaze,Pre-Workout,2025-05-01,1,1855.1
+TRK_00306,LinkedIn_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_24212,MuscleBlaze,Creatine,2025-05-02,1,1308.15
+TRK_00307,LinkedIn_influencer,HKVitals_INF_028_2025-04-30,INF_028,USER_67878,HKVitals,Vitamin D,2025-05-03,1,1026.24
+TRK_00308,LinkedIn_influencer,MuscleBlaze_INF_028_2025-04-30,INF_028,USER_68442,MuscleBlaze,Whey Protein,2025-05-05,1,2239.45
+TRK_00309,LinkedIn_influencer,HKVitals_INF_028_2025-04-30,INF_028,USER_14959,HKVitals,Vitamin D,2025-05-06,1,1037.78
+TRK_00310,LinkedIn_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_19188,Gritzo,DHA Supplement,2025-07-01,1,959.34
+TRK_00311,LinkedIn_influencer,MuscleBlaze_INF_028_2025-06-30,INF_028,USER_73185,MuscleBlaze,Mass Gainer,2025-07-02,1,2068.68
+TRK_00312,LinkedIn_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_17234,Gritzo,Growth Formula,2025-07-03,1,1152.8
+TRK_00313,LinkedIn_influencer,Gritzo_INF_028_2025-06-30,INF_028,USER_48005,Gritzo,Growth Formula,2025-07-06,1,889.31
+TRK_00314,LinkedIn_influencer,HKVitals_INF_029_2025-05-02,INF_029,USER_34833,HKVitals,Immunity Booster,2025-05-03,1,925.79
+TRK_00315,LinkedIn_influencer,MuscleBlaze_INF_029_2025-05-02,INF_029,USER_74124,MuscleBlaze,Whey Protein,2025-05-04,1,2627.56
+TRK_00316,LinkedIn_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_54470,Gritzo,DHA Supplement,2025-06-05,1,1324.73
+TRK_00317,LinkedIn_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_95701,Gritzo,Kids Protein,2025-06-06,1,1986.69
+TRK_00318,LinkedIn_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_28558,Gritzo,Teen Nutrition,2025-06-11,1,1732.89
+TRK_00319,LinkedIn_influencer,Gritzo_INF_029_2025-06-04,INF_029,USER_11882,Gritzo,Kids Protein,2025-06-13,1,1919.49
+TRK_00320,LinkedIn_influencer,HKVitals_INF_029_2025-06-04,INF_029,USER_87469,HKVitals,Multivitamin,2025-06-15,1,1258.68
+TRK_00321,LinkedIn_influencer,Gritzo_INF_029_2025-05-19,INF_029,USER_54216,Gritzo,Teen Nutrition,2025-05-20,1,823.65
+TRK_00322,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_37948,MuscleBlaze,Creatine,2025-07-23,1,1403.14
+TRK_00323,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_58487,MuscleBlaze,Pre-Workout,2025-07-26,1,953.03
+TRK_00324,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_73827,MuscleBlaze,Creatine,2025-07-30,1,1165.7
+TRK_00325,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_87821,MuscleBlaze,BCAA,2025-07-31,1,1990.4
+TRK_00326,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_69037,MuscleBlaze,BCAA,2025-07-23,1,927.19
+TRK_00327,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_75521,MuscleBlaze,Creatine,2025-07-24,1,1661.39
+TRK_00328,LinkedIn_influencer,HKVitals_INF_030_2025-07-22,INF_030,USER_35153,HKVitals,Omega-3,2025-07-26,1,1317.58
+TRK_00329,LinkedIn_influencer,Gritzo_INF_030_2025-07-22,INF_030,USER_80742,Gritzo,Kids Protein,2025-07-27,1,2604.55
+TRK_00330,LinkedIn_influencer,MuscleBlaze_INF_030_2025-07-22,INF_030,USER_72182,MuscleBlaze,BCAA,2025-08-01,1,1774.33
+TRK_00331,LinkedIn_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_13809,MuscleBlaze,Whey Protein,2025-06-16,1,2700.13
+TRK_00332,LinkedIn_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_87687,MuscleBlaze,Whey Protein,2025-06-17,1,2968.49
+TRK_00333,LinkedIn_influencer,MuscleBlaze_INF_030_2025-06-15,INF_030,USER_36208,MuscleBlaze,Whey Protein,2025-06-23,1,1823.24
